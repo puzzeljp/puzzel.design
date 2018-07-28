@@ -1,0 +1,4 @@
+[submodule "puzzel.design/themes/hugo-paper"]
+	path = puzzel.design/themes/hugo-paper
+	url = https://github.com/nanxiaobei/hugo-paper.git
+	branch = master

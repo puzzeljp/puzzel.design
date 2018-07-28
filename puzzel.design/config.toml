@@ -1,0 +1,16 @@
+baseURL = "https://puzzel.design/"
+languageCode = "ja-jp"
+title = "puzzel.design"
+theme= "hugo-paper"
+publishDir = "../"
+
+[permalinks]
+  posts = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+
+[params]
+  AuthorName = "puzzeljp"
+  GitHubUser = "puzzeljp"
+  SidebarRecentLimit = 10
+  Subtitle = "love design"
