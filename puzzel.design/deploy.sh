@@ -3,10 +3,10 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t
+hugo -t hugo-paper
 
 # Go To Public folder
-cd ../
+cd ./
 # Add changes to git.
 git add .
 

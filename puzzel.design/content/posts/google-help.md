@@ -1,6 +1,6 @@
 ---
 title: "Google Help Page"
-date: 2018-07-28T21:38:51+09:00
+date: 2018-07-28T20:38:51+09:00
 categories: ["website"]
 tags: ["google","website"]
 ---
