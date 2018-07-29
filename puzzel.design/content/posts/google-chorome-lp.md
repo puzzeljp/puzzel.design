@@ -1,7 +1,6 @@
 ---
 title: "Google Chrome LP"
 date: 2018-07-28T21:38:51+09:00
-draft: true
 categories: ["website"]
 tags: ["google","website"]
 ---
