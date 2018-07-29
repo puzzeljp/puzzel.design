@@ -6,9 +6,28 @@
     <description>Recent content in Tags on puzzel.design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
+    <lastBuildDate>Sat, 28 Jul 2018 21:38:51 +0900</lastBuildDate>
     
 	<atom:link href="https://puzzel.design/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google</title>
+      <link>https://puzzel.design/tags/google/</link>
+      <pubDate>Sat, 28 Jul 2018 21:38:51 +0900</pubDate>
+      
+      <guid>https://puzzel.design/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://puzzel.design/tags/website/</link>
+      <pubDate>Sat, 28 Jul 2018 21:38:51 +0900</pubDate>
+      
+      <guid>https://puzzel.design/tags/website/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

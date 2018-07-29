@@ -3,17 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://puzzel.design/2018/07/google-chorome-lp/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puzzel.design/2018/07/google-help/</loc>
+    <lastmod>2018-07-28T20:38:51+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://puzzel.design/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://puzzel.design/tags/google/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://puzzel.design/posts/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://puzzel.design/tags/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://puzzel.design/tags/website/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://puzzel.design/categories/website/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://puzzel.design/</loc>
+    <lastmod>2018-07-28T21:38:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   

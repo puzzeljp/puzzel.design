@@ -10,5 +10,14 @@
 	<atom:link href="https://puzzel.design/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Website</title>
+      <link>https://puzzel.design/categories/website/</link>
+      <pubDate>Sat, 28 Jul 2018 21:38:51 +0900</pubDate>
+      
+      <guid>https://puzzel.design/categories/website/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
