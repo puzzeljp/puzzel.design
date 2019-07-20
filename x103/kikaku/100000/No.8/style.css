@@ -1,0 +1,33 @@
+body,td,th {
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 10pt;
+	color: #666666;
+}
+body {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	margin-left: 400px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-position: left -160px;
+	background-attachment: fixed;
+                background-color: #fff
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF6699;
+}
+h2 {
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 5px;
+	margin: 10px;
+}
+h2:first-letter {
+	color: #FF6699;
+	}

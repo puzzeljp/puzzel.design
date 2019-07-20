@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+body {
+	background-color: #FFFFFF;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: -280px top;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	background-attachment: fixed;
+}
+a:link {
+	color: #0033FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0033FF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #3399FF;
+}
+a:active {
+	text-decoration: none;
+	color: #0033FF;
+}
+img {
+    border: 0px;
+	}
+.imgs {
+    width: 500px;
+	margin: auto;
+	padding: 10px 0px;
+}
+h2 {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0.4em;
+	border-left-width: 4px;
+	border-left-style: double;
+	border-left-color: #80B3FF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+p {
+	line-height: 170%;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}

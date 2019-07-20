@@ -1,0 +1,44 @@
+BODY	{
+	BACKGROUND-POSITION: left top;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(line.png);
+	MARGIN: 10px 20px;
+	COLOR: #000;
+	BACKGROUND-REPEAT: repeat-y;
+	FONT-FAMILY: "Lucida Sans Unicode";
+	TEXT-DECORATION: none
+	}
+A	{
+	COLOR: #000;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #fff;
+	TEXT-DECORATION: none
+	}
+H2	{
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 17px;
+	COLOR: #ffffff;
+	LETTER-SPACING: 5px;
+	BACKGROUND-COLOR: #000000
+	}
+P	{
+	MARGIN: 5px;
+	LINE-HEIGHT: 170%;
+	LETTER-SPACING: 2px
+	}
+BR	{
+	both: clear
+	}
+.img {
+    background: url(bg2.jpg) no-repeat center center;
+    width: 100%;
+    height: 270px;
+    }
+.img2 {
+    background: url(bg3.jpg) no-repeat center center;
+    width: 100%;
+    height: 180px;
+    }

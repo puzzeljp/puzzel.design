@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY {
+	FONT-SIZE: 10pt;
+	BACKGROUND: url(2.gif) #d8d8d8 fixed repeat-x left top;
+	MARGIN: 0px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "Century Gothic", "ＭＳ Ｐゴシック";
+	OVERFLOW: hidden;
+}
+table {
+	FONT-SIZE: 100%;
+	MARGIN: 0px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "Century Gothic", "ＭＳ Ｐゴシック";
+}
+A {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #86c2ff;
+	TEXT-DECORATION: underline
+}
+.tab {
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+	BACKGROUND: url(pho.jpg) #ffffff no-repeat center center;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid
+}
+.tab TD {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 10px;
+	PADDING-TOP: 10px
+}
+.s20 {
+	BACKGROUND-POSITION: center top;
+	MARGIN-TOP: 3px;
+	BACKGROUND-IMAGE: url(pho2.jpg);
+	WIDTH: 100%;
+	BACKGROUND-REPEAT: no-repeat;
+	HEIGHT: 450px;
+	padding: 60px 0px;
+}
+.s20,.s20 a {color: #000000}
+.site {
+	FONT-SIZE: 20px;
+	BACKGROUND-IMAGE: url(toumei.png);
+	PADDING-BOTTOM: 5px;
+	LINE-HEIGHT: 25px;
+	PADDING-TOP: 5px;
+	LETTER-SPACING: 5px;
+	TEXT-ALIGN: center
+}
+.menu {
+	FONT-SIZE: 13px;
+	BACKGROUND-IMAGE: url(toumei.png);
+	PADDING-BOTTOM: 5px;
+	LINE-HEIGHT: 25px;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: center;
+	LETTER-SPACING: 5px;
+}
+ul {
+	margin:0px;
+	padding:0px;
+	list-style: none
+}
+li {
+	display:inline;
+	padding: 0px 5px;
+}
+.menu3 {
+	FONT-WEIGHT: bold;
+}
+.main {
+	BACKGROUND-IMAGE: url(toumei.png);
+	WIDTH: 100%;
+	HEIGHT: 318px;
+	OVERFLOW: auto;
+}
+h2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 15px;
+	MARGIN: 0px;
+	LINE-HEIGHT: 50px;
+	LETTER-SPACING: 16px;
+	TEXT-ALIGN: center
+}
+p {
+	PADDING-RIGHT: 25px;
+	PADDING-LEFT: 25px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px;
+	LINE-HEIGHT: 25px;
+	PADDING-TOP: 5px
+}
+* html .menu {
+behavior: expression(IEPNGFIX.fix(this));
+} 
+
+* html .main {
+behavior: expression(IEPNGFIX.fix(this));
+} 
+
+* html .site {
+behavior: expression(IEPNGFIX.fix(this));
+} 

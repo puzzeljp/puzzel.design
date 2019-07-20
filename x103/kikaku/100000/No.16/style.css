@@ -1,0 +1,45 @@
+/* CSS Document */
+
+* {
+	marghin: 0px;
+	padding: 0px;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: "Century Gothic", Arial;
+	border: 0px;
+}
+BODY {
+	FONT-SIZE: 10pt;
+	BACKGROUND-IMAGE: url(bg.gif);
+	MARGIN:170px 100px;
+	COLOR: #404040;
+	BACKGROUND-REPEAT: repeat-x;
+	FONT-FAMILY: "Century Gothic", Arial;
+	BACKGROUND-COLOR: #ffffff;
+	background-position: -250px top;
+	background-attachment: fixed;
+}
+A {
+	COLOR: #5187f9;
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #d3e1fe;
+	TEXT-DECORATION: underline
+}
+h2 {
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	background-image: url(point.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: 0.5em;
+}
+p {
+	line-height: 170%;
+	font-size: 90%;
+}

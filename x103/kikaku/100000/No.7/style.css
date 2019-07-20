@@ -1,0 +1,22 @@
+BODY	{
+	FONT-SIZE: 10pt;
+	BACKGROUND: #F7F4ED;
+	COLOR: #4d4d4d;
+	FONT-FAMILY: "Century Gothic",Verdana
+	}
+A	{
+	COLOR: #181818;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #ffffff;
+	TEXT-DECORATION: underline
+	}
+h2{MARGIN-TOP: 2px; FONT-WEIGHT: 600; FONT-SIZE: 14px; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; LETTER-SPACING: 5px;PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(bg.gif); PADDING-BOTTOM: 5px; PADDING-TOP: 5px}
+table,textarea,input	{
+	FONT-SIZE: 10pt;
+	BACKGROUND: transparent;
+	COLOR: #ffffff;
+	FONT-FAMILY: Impact;
+        border: 0px
+	}

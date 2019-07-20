@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY	{
+	FONT-SIZE: 11px;
+	MARGIN: 0px;
+	COLOR: #a5a5a5;
+	FONT-FAMILY: Arial
+	}
+A	{
+	COLOR: #ff8040;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #ffbb77;
+	TEXT-DECORATION: underline overline
+	}
+.index {
+    width: 600px;
+    margin: auto;
+    }
+.header {
+    BACKGROUND-POSITION: left center; 
+    BORDER-TOP: #ffbb77 3px double; 
+    MARGIN-TOP: 20px; 
+    PADDING-LEFT: 160px; 
+    BACKGROUND-IMAGE: url(photo.jpg); 
+    PADDING-TOP: 20px; 
+    BORDER-BOTTOM: #ffd0a2 1px solid; 
+    BACKGROUND-REPEAT: no-repeat; 
+    HEIGHT: 150px
+    }
+h1  {
+    FONT-WEIGHT: bold; 
+    FONT-SIZE: 26px; 
+    LETTER-SPACING: 5px; 
+    }
+h1:first-letter,h2:first-letter {
+    color: #ffbb77
+    }
+ul  {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    }
+li a{
+    letter-spacing: 4px;
+    padding-left: 14px;
+    line-height: 20px;
+    font-size: 12px
+    }
+li a:hover {
+    background: url(point.gif) no-repeat left center;
+    letter-spacing: 10px; 
+    }
+.main {
+    PADDING-RIGHT: 15px; 
+    MARGIN-TOP: 15px; 
+    PADDING-LEFT: 15px; 
+    BACKGROUND-IMAGE: url(bg.gif); 
+    LINE-HEIGHT: 180%; 
+    BACKGROUND-REPEAT: repeat-x
+    }
+h2  {
+    PADDING-BOTTOM: 4px; 
+    PADDING-TOP: 4px; 
+    LETTER-SPACING: 16px;
+    color: #ddd
+    }
+.copy {
+    BORDER-TOP: #ffd5bf 1px dotted; 
+    WORD-SPACING: 2px; 
+    LINE-HEIGHT: 30px; 
+    BORDER-BOTTOM: #ffd5bf 1px dotted; 
+    LETTER-SPACING: 4px; 
+    TEXT-ALIGN: center
+    }

@@ -1,0 +1,151 @@
+body, html {
+    overflow-x: hidden
+    }
+body {
+    color: #000;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    }
+a {
+    color: #f96202
+    }
+a:hover {
+    color: #fff
+    }
+div#container {
+    padding: 60px 0
+    }
+header#main_header {
+    width: 308px;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 200px;
+    margin-top: -150px;
+    }
+div#image {
+    height: 232px;
+    float: left;
+    width: 100%;
+    margin: -50px 0 30px 0;
+    background-image: url(../images/bg_photo.jpg);
+    position: relative;
+    left: 308px;
+    }
+div#image #imgbg {
+    position: absolute;
+    width: 100%;
+    height: 232px;
+    }
+#g_navi {
+    clear: both
+    }
+#g_navi li a {
+    width: 268px;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 20px;
+    border-radius: 10px;
+    }
+#g_navi li a:hover {
+    background: #f0f0f0
+    }
+#contentswrap {
+    position: absolute;
+    top: 280px;
+    left: 308px;
+    }
+#contentswrap .main {
+    width: 298px;
+    float: left;
+    line-height: 20px;
+    padding-right: 10px;
+    }
+.main h1 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    }
+dl {
+    margin-bottom: 30px
+    }
+dl dt {
+    float: left;
+    color: #a52a0b;
+    padding: 5px;
+    }
+dl dd {
+    padding: 5px
+    }
+.faq dt, .bl dt {
+    font-weight: bold;
+    float: none;
+    }
+.faq .more {
+    display: none
+    }
+.faq .open {
+    cursor: pointer
+    }
+.bl dd {
+    background-color: #f9f9f9;
+    padding: 4px;
+    /* Mozilla */
+    white-space: -moz-pre-wrap;
+    /* CSS3 */
+    white-space: pre-wrap;
+    /* IE 5.5+ */
+    word-wrap: break-word;
+    }
+.main 
+ul, .main p {
+    margin: 0 0 30px 0
+    }
+.main li {
+    list-style-type: circle;
+    list-style-position: inside;
+    }
+.main li a {
+    display: block;
+    padding: 3px 0;
+    }
+strong {
+    background: #f96202;
+    color: #fff;
+    padding: 3px;
+    font-weight: bold;
+    }
+input, textarea {
+    border: 1px solid #000;
+    line-height: 20px;
+    font-family: Helvetica;
+    width: 308px !important;
+    }
+textarea {
+    height: 100px
+    }
+.submit_button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    }
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    }
+footer .conter, footer p {
+    float: left
+    }
+footer .conter {
+    margin-right: 10px;
+    widows: 30px;
+    height: 12px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    }
+footer .conter img {
+    margin-top: -5px;
+    display: block;
+    }

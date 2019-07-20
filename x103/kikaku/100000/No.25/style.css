@@ -1,0 +1,132 @@
+*   {
+    margin: 0px;
+    }
+BODY	{
+	FONT-SIZE: 9pt;
+	COLOR: #414141;
+	FONT-FAMILY: "Century Gothic","Lucida Sans Unicode",Verdana,Arial;
+    }
+A	{
+	COLOR: #1a8cff;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #71b8ff;
+	TEXT-DECORATION: underline
+	}
+/*コンテンツ囲みのCSS*/
+.body {
+    width: 800px;
+    margin: 60px auto 0px auto;
+    }
+/*ヘッダーのCSS*/
+.header {
+    background: url(1.gif) no-repeat;
+    height: 29px;
+	text-indent	: -9998px;
+	overflow : hidden;
+    }
+/*フッターのCSS*/
+.footer {
+    }
+/*背景表示のCSS*/
+.in {
+    background: url(2.gif) repeat-y;
+    }
+/*メニューのCSS*/
+.menu {
+    background: url(2.gif) repeat-y;
+    height: 54px
+    }
+#mleft {
+    width: 27%;
+    margin-left: 28px;
+    float: left;
+	font-size: 36px;
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: "Arial Black";
+    }
+#mleft:first-letter{
+	color: #0099FF;
+	font-family: "Arial Black";
+	}
+#mright {
+    width: 62%;
+    margin-right: 10px;
+    float: right
+    }
+#menu {
+    list-style: none;
+    margin: 15px 0px;
+    padding: 0px
+    }
+#menu li {
+    float: left;
+    }
+#menu li a {
+    float: left;
+    background: url(bg_menu.gif) no-repeat;
+    margin-right: 5px;
+    TEXT-DECORATION: none;
+    width: 60px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color: #e6f2ff
+    }
+#menu li a:hover {
+    background: url(bg_menu2.gif) no-repeat;
+    }
+/*画像のCSS*/
+.img_top {
+    margin: 30px auto;
+    background: url(bg_back.jpg) no-repeat;
+    height: 261px;
+    width: 747px;
+    text-indent	: -9998px;
+    overflow : hidden;
+    }
+/*コンテンツのCSS*/
+.contents {
+    margin: 4px 40px 0px 40px;
+    padding-bottom: 30px;
+    _padding-bottom: 0px
+    }
+/*H2のCSS*/
+h2  {
+    FONT-SIZE: 17px; 
+    COLOR: #b0b0b0; 
+    BACKGROUND: url(st.png) repeat-x center bottom; 
+    LETTER-SPACING: 4px;
+    margin: 4px 0px
+    }
+h2:first-letter {
+    color: #009DFF
+    }
+/*tdのCSS*/
+p {
+    BACKGROUND: url(bg2.jpg) repeat-y; 
+    margin-bottom: 6px;
+    padding: 5px 10px;
+    line-height: 180%;
+    }
+
+/*textareaなど*/
+textarea,input,pre,form,table{
+	FONT-SIZE: 9pt;
+	COLOR: #414141;
+	FONT-FAMILY: "Century Gothic","Lucida Sans Unicode",Verdana,Arial;
+	border: 0px;
+    background: transparent
+    }
+    
+#ss0 {margin: 4px; border: 1px solid #ddd; padding: 3px;}
+img{border:0px}
+hr{border: 1px;}
+.copyright {
+     width: 500px;
+	 margin: auto;
+	 line-height: 30px;
+	 text-align: center
+	 }

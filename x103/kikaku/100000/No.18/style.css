@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body, td, th {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+body {
+	background-color: #F3E7CF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #CC6600;
+	text-decoration: none;
+}
+a:hover {
+	color: #F3E7CF;
+	text-decoration: underline;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+.index {
+	width: 600px;
+	border-left: #FFD9B3 1px solid;
+	border-right: #FFD9B3 1px solid;
+	border-bottom: #FFD9B3 1px solid;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu {
+	clear: both
+}
+ul.menu {
+	list-style: none;
+	margin: 0px auto;
+	padding: 0px;
+	width: 500px;
+}
+.menu li {
+	float: left;
+	margin: 5px 10px;
+}
+.menu li a {
+	line-height: 50px;
+	text-align: center;
+	width: 100px;
+	display: block;
+}
+.menu li a:hover {
+	background: url(bg.png)
+}
+.index .img {
+	padding-top: 130px;
+	clear: both;
+	width: 550px;
+	background-image: url(sample.gif);
+	margin: auto;
+	line-height: 14px;
+	padding-left: 10px;
+	border: #888 1px solid;
+	margin-bottom: 20px
+}
+h1 {
+	font-size: 100%;
+	margin: 0px;
+	letter-spacing: 0.5em;
+}
+.main {
+	width: 550px;
+	margin: auto
+}
+.index .main h2 {
+	background-image: url(star.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 25px;
+	padding-left: 30px;
+	line-height: 25px;
+	font-size: 16px;
+	letter-spacing: 0.3em;
+}
+h2:first-letter {
+	color: #FFCC33
+}
+p {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 160%;
+}
+.copy {
+	clear: both;
+	letter-spacing: 0.4em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}

@@ -1,0 +1,71 @@
+BODY	{
+	FONT-SIZE: 10pt;
+	MARGIN: 0px;
+	COLOR: #666;
+	FONT-FAMILY: "Times New Roman"
+	}
+TABLE,textarea,input	{
+	FONT-SIZE: 10pt;
+	MARGIN: 0px;
+	COLOR: #666;
+	FONT-FAMILY: "Times New Roman"
+	}
+A	{
+	FONT-WEIGHT: bold;
+	COLOR: #dfd0ff
+	}
+A:hover	{
+	COLOR: #fff
+	}
+#table1	{
+	PADDING-LEFT: 10px;
+	BACKGROUND-COLOR: #e9eef2
+	}
+#table1 IMG	{
+	MARGIN-RIGHT: 10px
+	}
+#table2	{
+	PADDING-LEFT: 10%;
+	PADDING-TOP: 10px
+	}
+H1	{
+	FONT-SIZE: 25px;
+	PADDING-BOTTOM: 6px;
+	COLOR: #b9b9b9;
+	PADDING-TOP: 20px;
+	LETTER-SPACING: 5px
+	}
+UL	{
+	MARGIN: 0px;
+	LIST-STYLE-TYPE: none
+	}
+LI	{
+	FLOAT: left
+	}
+LI A	{
+	PADDING-RIGHT: 4px;
+	BACKGROUND-POSITION: left center;
+	PADDING-LEFT: 15px;
+	FLOAT: left;
+	BACKGROUND-IMAGE: url(po.gif);
+	MARGIN-LEFT: 5px;
+	BACKGROUND-REPEAT: no-repeat
+	}
+H2	{
+	BACKGROUND-POSITION: left center;
+	MARGIN-TOP: 0px;
+	PADDING-LEFT: 20px;
+	FONT-SIZE: 10pt;
+	BACKGROUND-IMAGE: url(po.gif);
+	MARGIN-BOTTOM: 0px;
+	MARGIN-LEFT: 5px;
+	LINE-HEIGHT: 30px;
+	BACKGROUND-REPEAT: no-repeat;
+	LETTER-SPACING: 20px
+	}
+P	{
+	PADDING: 3px;
+	BACKGROUND-IMAGE: url(st.png);
+	MARGIN: 5px;
+	LINE-HEIGHT: 28px
+	}

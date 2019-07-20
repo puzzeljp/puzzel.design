@@ -1,0 +1,91 @@
+BODY	{
+	FONT-SIZE: 10pt;
+	COLOR: #000000;
+        margin: 0px;
+	FONT-FAMILY: "Arial Black",Verdana;
+	TEXT-ALIGN: center
+	}
+A	{
+	COLOR: #66b3ff;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #004080
+	}
+h1  {
+    FONT-WEIGHT: normal; FONT-SIZE: 40px; LETTER-SPACING: 14px; margin: 3px;TEXT-ALIGN: center;
+    }
+.x {width: 370px;	TEXT-ALIGN: center}
+.a  {COLOR: #66b3ff;}
+.b  {COLOR: #004080}
+.img {
+     BORDER-TOP: #eaeaea 3px solid; BACKGROUND: url(photo.jpg) center center; WIDTH: 100%; BORDER-BOTTOM: #eaeaea 3px solid; HEIGHT: 90px
+     } 
+ul   {margin-top: 10px; margin-left: 5px; padding: 0px}
+.menu	{
+	LIST-STYLE-TYPE: none;
+	LETTER-SPACING: 3px;
+	DISPLAY: block;
+    }
+.menu a	{
+	DISPLAY: block;
+    width: 120px;
+	PADDING-TOP: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    margin: 5px;
+    TEXT-DECORATION: none;
+    border: #b9dcff 1px solid;
+	}
+.menu a:hover{background: #ddeeff}
+.xx {width: 500px;}
+.t  {MARGIN-TOP: 5px; FONT-SIZE: 15pt; MARGIN-BOTTOM: 5px; LETTER-SPACING: 4px; COLOR: #004080}
+.td {FONT-SIZE: 8pt; LINE-HEIGHT: 15pt; FONT-FAMILY: Verdana; TEXT-ALIGN: left}
+TABLE	{
+	FONT-SIZE: 100%;
+	 FONT-FAMILY: Verdana; 
+	LETTER-SPACING: 1px
+	}
+TEXTAREA	{
+	FONT-SIZE: 100%;
+	 FONT-FAMILY: Verdana; 
+	LETTER-SPACING: 1px
+	}
+INPUT	{
+	FONT-SIZE: 100%;
+	FONT-FAMILY: Arial;
+	LETTER-SPACING: 1px
+	}
+TEXTAREA	{
+	BORDER-RIGHT: #c0c0c0 1px solid;
+	BORDER-TOP: #c0c0c0 1px solid;
+	FONT-SIZE: 100%;
+	MARGIN-BOTTOM: 2px;
+	BORDER-LEFT: #c0c0c0 1px solid;
+	COLOR: #222;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+	 FONT-FAMILY: Verdana; 
+	BACKGROUND-COLOR: transparent
+	}
+INPUT	{
+	BORDER-RIGHT: #c0c0c0 1px solid;
+	BORDER-TOP: #c0c0c0 1px solid;
+	FONT-SIZE: 100%;
+	MARGIN-BOTTOM: 2px;
+	BORDER-LEFT: #c0c0c0 1px solid;
+	COLOR: #222;
+	BORDER-BOTTOM: #c0c0c0 1px solid;
+	 FONT-FAMILY: Verdana; 
+	BACKGROUND-COLOR: transparent
+	}
+TEXTAREA	{
+	WIDTH: 100%;
+	LETTER-SPACING: 10px;
+	HEIGHT: 80px
+	}
+INPUT	{
+	WIDTH: 70%;
+	LETTER-SPACING: 10px;
+	HEIGHT: 20px
+	}
+p{font-size: 80%}

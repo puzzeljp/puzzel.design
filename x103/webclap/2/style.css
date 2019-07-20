@@ -1,0 +1,50 @@
+BODY	{
+	FONT-SIZE: 10pt;
+	BACKGROUND: url(pho.jpg) #091430 fixed no-repeat -200px top;
+	COLOR: #ffffff;
+	FONT-FAMILY: Impact
+	}
+table,textarea,input	{
+	FONT-SIZE: 10pt;
+	BACKGROUND: transparent;
+	COLOR: #ffffff;
+	FONT-FAMILY: Impact;
+        border: 0px
+	}
+A	{
+	COLOR: #ffffff;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #a6d2ff
+	}
+H1	{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 130%;
+	PADDING-BOTTOM: 10px;
+	MARGIN: 0px 5px;
+	PADDING-TOP: 10px;
+	BORDER-BOTTOM: #ddeeff 1px solid;
+	LETTER-SPACING: 7px;
+	TEXT-ALIGN: right
+	}
+.t	{
+	BORDER-TOP: #091426 2px solid;
+	MARGIN: 5px 6px 4px;
+	BORDER-BOTTOM: #091426 2px solid;
+	LETTER-SPACING: 8px
+	}
+.td	{
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	FILTER: alpha(opacity=60);
+	PADDING-BOTTOM: 5px;
+	MARGIN: 4px;
+	WIDTH: 90%;
+	PADDING-TOP: 5px;
+	BACKGROUND-COLOR: #000;
+	moz-opacity: 0.6;
+	opacity: 0.6
+	}

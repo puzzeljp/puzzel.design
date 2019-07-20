@@ -1,0 +1,26 @@
+BODY	{
+	FONT-SIZE: 10pt;
+	BACKGROUND-ATTACHMENT: fixed;
+	COLOR: #666;
+	FONT-FAMILY: "Century Gothic"
+	}
+TABLE,textarea,input	{
+	FONT-SIZE: 10pt;
+	MARGIN: 0px;
+	COLOR: #666;
+	FONT-FAMILY: "Century Gothic";
+        border: 0px;
+	}
+A	{
+	COLOR: #666;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #e9fdd2
+	}
+.t  {
+    FONT-WEIGHT: 600; LETTER-SPACING: 3px
+    }
+.td {
+    PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 13px; LINE-HEIGHT: 20px; PADDING-TOP: 13px
+    }

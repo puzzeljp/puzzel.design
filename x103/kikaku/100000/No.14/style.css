@@ -1,0 +1,86 @@
+/* CSS Document */
+
+body, td, th {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+	font-size: 10px;
+	color: #996600;
+}
+body {
+	background-color: #FFFFCC;
+	background-image: url(bg.gif);
+	background-repeat: repeat-y;
+	background-position: 60px top;
+	margin: 20px 170px;
+}
+a:link {
+	color: #CC6600;
+}
+a:visited {
+	color: #996600;
+}
+a:hover {
+	color: #999933;
+}
+a:active {
+	color: #996600;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 0.3em;
+	float:left;
+	line-height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+.menu {
+	float:left;
+	line-height: 30px;
+	margin-left: 30px;
+	font-size: 130%
+}
+.menu a {
+	margin-right:13px;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFCC;
+}
+.menu a:hover {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #996600;
+}
+.he {
+	padding-bottom: 50px;
+}
+.main {
+	margin: 0px 30px;
+	padding: 14px;
+	border: 1px dotted #FFBC79;
+	clear:both
+}
+h2 {
+	margin:0px;
+	padding:0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	letter-spacing: 0.4em;
+	color: #FFBA75;
+}
+p {
+	line-height: 170%;
+	letter-spacing: 0.1em;
+}
+br {
+	clear:both
+}
+.fd {
+	padding: 4px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #996600;
+	margin-top: 10px;
+}

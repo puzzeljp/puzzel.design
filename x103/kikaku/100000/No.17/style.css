@@ -1,0 +1,112 @@
+/* CSS Document */
+body, td, th, texarea, input {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	border: 0px;
+}
+img {
+	border:0px
+}
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: url(1.gif) repeat-y center top;
+}
+a:link {
+	color: #0033FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #339999;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF3300;
+}
+a:active {
+	text-decoration: none;
+	color: #0099FF;
+}
+.index {
+	width: 800px;
+	margin: auto;
+}
+.index .main .img {
+	background-image: url(sample.gif);
+	height: 200px;
+	width: 700px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	text-indent : -9998px;
+	overflow : hidden;
+	display:block
+}
+.main .maincon {
+	margin: auto;
+	width: 700px;
+}
+.main .maincon .left {
+	float: left;
+	width: 150px;
+}
+.main .maincon .right {
+	float: right;
+	width: 530px;
+}
+ul.menu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu li {
+ 	margin-bottom: 5px;
+	}
+.menu li a {
+	border: 1px solid #ddd;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	display: block;
+}
+.menu li a:hover {
+	background: url(bg.png)
+}
+h2 {
+	background-image: url(bg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	color: #999999;
+	letter-spacing: 0.3em;
+}
+p {
+	line-height: 160%;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.copy {
+	clear: both;
+	letter-spacing: 0.4em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.imgn {
+	margin: 1px 3px
+}

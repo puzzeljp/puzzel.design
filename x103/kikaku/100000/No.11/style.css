@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: ＭＳ Ｐ明朝, 細明朝体, ヒラギノ明朝 Pro W3;
+	font-size: 10pt;
+}
+h2 {
+	border-top-width: 3px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-top-color: #990000;
+	padding-top: 5px;
+	letter-spacing: 5em;
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+	padding-bottom: 5px;
+	text-align: right;
+}
+p {
+	line-height: 20px;
+	background-image: url(bg_t.gif);
+	background-repeat: repeat;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+body {
+	background-image: url(bg_b.gif);
+	background-repeat: repeat-y;
+}

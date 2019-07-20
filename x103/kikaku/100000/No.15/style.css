@@ -1,0 +1,78 @@
+BODY	{
+	SCROLLBAR-FACE-COLOR: #ffffff;
+	FONT-SIZE: 10px;
+	MARGIN: 0px;
+	SCROLLBAR-HIGHLIGHT-COLOR: #CC99CC;
+	SCROLLBAR-SHADOW-COLOR: #CC99CC;
+	COLOR: #CC99CC;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #CC99CC;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	FONT-FAMILY: "Century Gothic";
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	SCROLLBAR-BASE-COLOR: #ffffff;
+	LINE-HEIGHT: 170%
+	}
+#b2     {
+        margin:10px;
+        }
+TABLE	{
+	FONT-SIZE: 100%
+	}
+A	{
+	TEXT-DECORATION: none;
+	color: #CC66CC;
+	}
+A:hover	{
+	COLOR: #e7dccd;
+	TEXT-DECORATION: none
+	}
+#me	{
+	FONT-SIZE: 13px
+	}
+#me a {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	letter-spacing: 0.3em;
+	line-height: 40px;
+	display: block
+}
+
+#tds    {
+    BACKGROUND: url(bg.jpg) #ffffff no-repeat left bottom
+    }
+.ta1 {
+    border-left: #CC99CC 1px solid;
+    border-right: #CC99CC 1px solid
+    }
+#1  {
+    border-right: #CC99CC 1px solid
+    }
+textarea,input {
+    BORDER-RIGHT: #CC99CC 1px solid; 
+    BORDER-TOP: #CC99CC 1px solid; 
+    FONT-SIZE: 10px; 
+    MARGIN: 2px; 
+    BORDER-LEFT: #CC99CC 1px solid; 
+    BORDER-BOTTOM: #CC99CC 1px solid; 
+    FONT-FAMILY: "Century Gothic";
+	COLOR: #CC99CC;
+    }
+.t  {
+	BORDER-BOTTOM: #CC99CC 1px solid;
+	FONT-SIZE: 10pt;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+    }
+.td {
+    margin:5px;
+    padding-bottom:10pt;
+    font-family:Verdana;
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}

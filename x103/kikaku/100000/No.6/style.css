@@ -1,0 +1,99 @@
+BODY {
+	BACKGROUND-POSITION: left 80px;
+	FONT-SIZE: 11pt;
+	BACKGROUND-IMAGE: url(bg.gif);
+	COLOR: #2a2a2a;
+	BACKGROUND-REPEAT: repeat-x;
+	FONT-FAMILY: Arial;
+	TEXT-DECORATION: none;
+	BACKGROUND-COLOR: #ECECDE
+}
+table, textarea, input, from, pre {
+	FONT-SIZE: 11pt;
+	COLOR: #2a2a2a;
+	FONT-FAMILY: Arial;
+	BACKGROUND-COLOR: #ECECDE;
+	BORDER: 0px;
+	MARGIN:0px
+}
+A {
+	COLOR: #4f4f4f;
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c0c0c0;
+	TEXT-DECORATION: none
+}
+h1 {
+	FONT-WEIGHT: normal;
+	LETTER-SPACING: 20px;
+	TEXT-ALIGN: center
+}
+.menu {
+	MARGIN-TOP: 170px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 460px;
+}
+ul {
+	margin: 0px;
+	list-style: none;
+}
+.menu2, .menu3 {
+	float: left;
+}
+.menu2 a, .menu3 a {
+	float: left;
+	margin-left: 3px;
+	width: 100px;
+	text-align: center;
+	LINE-HEIGHT: 25px;
+	LETTER-SPACING: 3px;
+}
+.menu2 a {
+	BORDER-BOTTOM: #808080 3px solid;
+}
+.menu3 a {
+	FONT-WEIGHT: bold;
+	BORDER-BOTTOM: #111 3px solid;
+}
+.menu2 a:hover, .menu3 a:hover {
+	BORDER-BOTTOM: #000000 3px solid;
+}
+.mains {
+	clear: both;
+	padding-top: 20px
+}
+h2 {
+	PADDING-LEFT: 4px;
+	FONT-SIZE: 15px;
+	MARGIN: 10px auto;
+	BORDER-LEFT: #808080 4px solid;
+	WIDTH: 400px;
+	LINE-HEIGHT: 20px;
+	LETTER-SPACING: 8px;
+}
+p {
+	BORDER-RIGHT: #dddddd 1px dotted;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #dddddd 1px dotted;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 4px auto;
+	BORDER-LEFT: #dddddd 1px dotted;
+	WIDTH: 400px;
+	LINE-HEIGHT: 20pt;
+	PADDING-TOP: 4px;
+	BORDER-BOTTOM: #dddddd 1px dotted
+}
+.bottoms {
+	BORDER-TOP: #808080 3px solid;
+	FONT-SIZE: 80%;
+	PADDING-BOTTOM: 3px;
+	MARGIN: 15px auto;
+	WIDTH: 400px;
+	PADDING-TOP: 3px;
+	LETTER-SPACING: 1px;
+	TEXT-ALIGN: center
+}

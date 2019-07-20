@@ -1,0 +1,17 @@
+*	{
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+	TEXT-DECORATION: none
+	}
+A	{
+	COLOR: #51a8ff;
+	TEXT-DECORATION: none
+	}
+A:hover	{
+	COLOR: #ff42ff;
+	TEXT-DECORATION: underline
+	}
+.t{FONT-WEIGHT: bold; LINE-HEIGHT: 20px; BORDER-BOTTOM: #78c4ef 3px double; LETTER-SPACING: 5px}
+.td{MARGIN: 15px; LINE-HEIGHT: 20px}
+.img{margin: 0px auto; width: 500px}
