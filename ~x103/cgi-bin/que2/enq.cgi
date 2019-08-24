@@ -1,70 +1,70 @@
 #!/usr/bin/perl
-#ƒT[ƒo‚É‚æ‚Á‚Ä‚Íã‚Ìˆê•¶‚ð•ÏX‚·‚é•K—v‚ª‚ ‚è‚Ü‚·BƒT[ƒoŠÇ—ŽÒ‚É‚¨q‚Ë‚­‚¾‚³‚¢B
-$ver = 3.50; #ƒo[ƒWƒ‡ƒ“î•ñ
+#ï¿½Tï¿½[ï¿½oï¿½É‚ï¿½ï¿½ï¿½Ä‚Íï¿½Ìˆê•¶ï¿½ï¿½ÏXï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Tï¿½[ï¿½oï¿½Ç—ï¿½ï¿½Ò‚É‚ï¿½ï¿½qï¿½Ë‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+$ver = 3.50; #ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-#-----‚±‚êˆÈ‰º‚Ì’˜ìŽÒ•\Ž¦‚ð•ÏX‚µ‚È‚¢‚Å‚­‚¾‚³‚¢-----
+#-----ï¿½ï¿½ï¿½ï¿½È‰ï¿½ï¿½Ì’ï¿½ï¿½ï¿½Ò•\ï¿½ï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-----
 #
-#ƒlƒbƒgƒ}ƒjƒA@WEBƒAƒ“ƒP[ƒgƒVƒXƒeƒ€ƒJƒXƒ^ƒ}ƒCƒY”Å
-#http://www.netmania.jp
-#‚±‚ÌƒXƒNƒŠƒvƒg‚ÍƒtƒŠ[ƒEƒFƒA‚Å‚·B
-#‚±‚ÌƒXƒNƒŠƒvƒg‚ÌÝ’èEÝ’uE‰^—p‚ÍƒXƒNƒŠƒvƒgŽg—pŽÒ‚ÌÓ”C‚É‚¨‚¢‚Äs‚Á‚Ä‚­‚¾‚³‚¢B
-#’˜ìŽÒ•\Ž¦‚ð‰ü•Ï‚µ‚È‚¢‚Å‰º‚³‚¢B
-#ƒJƒXƒ^ƒ}ƒCƒY”Å‚ÌÄ”z•z‚Í‹ÖŽ~‚µ‚Ü‚·B
+#ï¿½lï¿½bï¿½gï¿½}ï¿½jï¿½Aï¿½@WEBï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½gï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½ï¿½
+#//www.netmania.jp
+#ï¿½ï¿½ï¿½ÌƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½Íƒtï¿½ï¿½ï¿½[ï¿½Eï¿½Fï¿½Aï¿½Å‚ï¿½ï¿½B
+#ï¿½ï¿½ï¿½ÌƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ÌÝ’ï¿½Eï¿½Ý’uï¿½Eï¿½^ï¿½pï¿½ÍƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½gï¿½pï¿½Ò‚ÌÓ”Cï¿½É‚ï¿½ï¿½ï¿½ï¿½Äsï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+#ï¿½ï¿½ï¿½ï¿½Ò•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½È‚ï¿½ï¿½Å‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+#ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½Å‚ÌÄ”zï¿½zï¿½Í‹ÖŽ~ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-#-----ƒXƒNƒŠƒvƒg”z•zŒ³--------------------------------
+#-----ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½zï¿½zï¿½ï¿½--------------------------------
 #[Web Qnaire 1]
 #(C)narishin,2000-2004
-#http://www.narishin.com
+#//www.narishin.com
 
-#-----Ý’u•û–@----------------------------------------
+#-----ï¿½Ý’uï¿½ï¿½ï¿½@----------------------------------------
 #
-#	enq.cgi		[755][707]	‚¨Žg‚¢‚ÌƒT[ƒo[‚É‡‚í‚¹‚Ä•ÏX
+#	enq.cgi		[755][707]	ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Éï¿½ï¿½í‚¹ï¿½Ä•ÏX
 #	data.txt	[666][600]
 #	jcode.pl	[644]
 #	graph.gif	[644]
 #
 
 
-#¦˜A‘±“Š•[‚ð‹ÖŽ~‚µ‚½‚¢ê‡A229E230s–ÚAæ“ª‚Ìu#v‚ðŽæ‚Á‚Ä‰º‚³‚¢B
+#ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÖŽ~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½A229ï¿½E230ï¿½sï¿½ÚAï¿½æ“ªï¿½Ìu#ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
 
 
 #----------------------
-#‰ŠúÝ’è
+#ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½
 #---------------------- 
 
 
-$mkazu = 10000;				#ƒtƒŠ[ƒƒbƒZ[ƒW•\Ž¦”(0:”ñ•\Ž¦)
-$home='http://103.coxb.net/~x103/';	#ƒz[ƒ€ƒy[ƒW(‹A‚èæAâ‘ÎƒpƒX‚ÅŽw’è)
-$mail='hitomi.s.akky@gmai.com';		#ŠÇ—ŽÒƒ[ƒ‹
-$pass='saku2';				#ŠÇ—ŽÒ—pƒpƒXƒ[ƒh
+$mkazu = 10000;				#ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½\ï¿½ï¿½ï¿½ï¿½(0:ï¿½ï¿½\ï¿½ï¿½)
+$home='//103.coxb.net/~x103/';	#ï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½W(ï¿½Aï¿½ï¿½ï¿½Aï¿½ï¿½Îƒpï¿½Xï¿½ÅŽwï¿½ï¿½)
+$mail='hitomi.s.akky@gmai.com';		#ï¿½Ç—ï¿½ï¿½Òƒï¿½ï¿½[ï¿½ï¿½
+$pass='saku2';				#ï¿½Ç—ï¿½ï¿½Ò—pï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½h
 
-$title='ƒAƒ“ƒP[ƒg';	#ƒ^ƒCƒgƒ‹
+$title='ï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½g';	#ï¿½^ï¿½Cï¿½gï¿½ï¿½
 
-$iken='‚²ˆÓŒ©E‚²Š´‘z‚ð‚Ç‚¤‚¼(•K{‚Å‚Í‚ ‚è‚Ü‚¹‚ñ)';	#ˆÓŒ©•\Ž¦ƒ^ƒCƒgƒ‹
-$iken2='‚²ˆÓŒ©E‚²Š´‘z';				#ˆÓŒ©•\Ž¦ƒ^ƒCƒgƒ‹iŒ‹‰Êj
+$iken='ï¿½ï¿½ï¿½ÓŒï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½zï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½(ï¿½Kï¿½{ï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)';	#ï¿½ÓŒï¿½ï¿½\ï¿½ï¿½ï¿½^ï¿½Cï¿½gï¿½ï¿½
+$iken2='ï¿½ï¿½ï¿½ÓŒï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½z';				#ï¿½ÓŒï¿½ï¿½\ï¿½ï¿½ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Êj
 
-$bgcolor='#ffffff';		#”wŒiF
-$bgimage='http://';		#”wŒi‰æ‘œ
+$bgcolor='#ffffff';		#ï¿½wï¿½iï¿½F
+$bgimage='//';		#ï¿½wï¿½iï¿½æ‘œ
 
-#à–¾•¶(ƒ^ƒO‚àŽg—p‰Â”\)
-$subtitle='20–œƒqƒbƒg‚ÌŠé‰æ‚É‚Â‚¢‚Ä‚Å‚·B';
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½^ï¿½Oï¿½ï¿½ï¿½gï¿½pï¿½Â”\)
+$subtitle='20ï¿½ï¿½ï¿½qï¿½bï¿½gï¿½ÌŠï¿½ï¿½É‚Â‚ï¿½ï¿½Ä‚Å‚ï¿½ï¿½B';
 
 #----------------------
-#‰ŠúÝ’è‚Qi“Á‚É•ÏX‚Ì•K—vƒiƒVj
+#ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Qï¿½iï¿½ï¿½ï¿½É•ÏXï¿½Ì•Kï¿½vï¿½iï¿½Vï¿½j
 #---------------------- 
 
-require './jcode.pl';		#“ú–{Œêˆ—Œn(‚±‚Ìƒtƒ@ƒCƒ‹‚Æ“¯‚¶ƒfƒBƒŒƒNƒgƒŠ‚É‚¨‚¢‚Ä‚­‚¾‚³‚¢)
-$kanji='sjis';			#Š¿Žš•ÏŠ·•ûŽ®(sjis(„§)‚©jis‚©euc)
-$method='POST';			#ƒƒ\ƒbƒhŒ`Ž®(POST(„§)‚©GET)
-$lockkey = 0;			# ƒƒbƒN‹@\ (0:•sŽg—p 1:Žg—p)
-$lockfile = './lock';		# ƒƒbƒNƒtƒ@ƒCƒ‹–¼
-$script='./enq.cgi';		#ƒXƒNƒŠƒvƒg–¼(‚±‚Ìƒtƒ@ƒCƒ‹‚Ì–¼‘O)
-$logfile='./data.txt';		#ƒf[ƒ^ƒtƒ@ƒCƒ‹–¼(‚±‚Ìƒtƒ@ƒCƒ‹‚Æ“¯‚¶ƒfƒBƒŒƒNƒgƒŠ‚É‚¨‚¢‚Ä‚­‚¾‚³‚¢)
-$graphgif='graph.gif';		#ƒOƒ‰ƒt—p‰æ‘œƒf[ƒ^(â‘ÎƒpƒX‚ÅŽw’è)
-$twidth='660';			#ƒe[ƒuƒ‹‚Ì•
-$twidth2='640';			#à–¾•¶ƒe[ƒuƒ‹‚Ì•iã‹Lƒe[ƒuƒ‹‚æ‚è¬‚³‚ß‚Éj
-#ˆÈ‰ºƒXƒ^ƒCƒ‹ƒV[ƒg
+require './jcode.pl';		#ï¿½ï¿½ï¿½{ï¿½êˆï¿½ï¿½ï¿½n(ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+$kanji='sjis';			#ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½ï¿½ï¿½ï¿½(sjis(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½jisï¿½ï¿½euc)
+$method='POST';			#ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½`ï¿½ï¿½(POST(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½GET)
+$lockkey = 0;			# ï¿½ï¿½ï¿½bï¿½Nï¿½@ï¿½\ (0:ï¿½sï¿½gï¿½p 1:ï¿½gï¿½p)
+$lockfile = './lock';		# ï¿½ï¿½ï¿½bï¿½Nï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+$script='./enq.cgi';		#ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½(ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Ì–ï¿½ï¿½O)
+$logfile='./data.txt';		#ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+$graphgif='graph.gif';		#ï¿½Oï¿½ï¿½ï¿½tï¿½pï¿½æ‘œï¿½fï¿½[ï¿½^(ï¿½ï¿½Îƒpï¿½Xï¿½ÅŽwï¿½ï¿½)
+$twidth='660';			#ï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½Ì•ï¿½
+$twidth2='640';			#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½Ì•ï¿½ï¿½iï¿½ï¿½Lï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½ï¿½è¬ï¿½ï¿½ï¿½ß‚Éj
+#ï¿½È‰ï¿½ï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½Vï¿½[ï¿½g
 $style='
 
 <!--
@@ -102,7 +102,7 @@ body {
 	margin:0 auto;
 	padding:0;
 	text-align:center;
-	font-family: Verdana, Arial, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;}
+	font-family: Verdana, Arial, "ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S Pro W3", "ï¿½lï¿½r ï¿½oï¿½Sï¿½Vï¿½bï¿½N", sans-serif;}
 
 
 #out {
@@ -258,7 +258,7 @@ h4 {font-size:100%;background-color:#EFEFEF;padding:3px 5px;margin:20px 0 10px 0
 ';
 
 #----------------------------------
-#ƒƒCƒ“ˆ—Œn
+#ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½n
 #----------------------------------
 &decode;
 
@@ -272,7 +272,7 @@ if ($mode eq 'tohyo' || $mode eq 'kekka'){
 }
 
 #----------------------------------
-#‰Šú“Š•[‰æ–Ê
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½
 #----------------------------------
 sub tohyo{
 	&head;
@@ -281,10 +281,10 @@ sub tohyo{
 
 
 \n";
-	if ($home ne 'http://'){
-		print "<a href=$home>ƒz[ƒ€‚Ö</a> | \n";
+	if ($home ne '//'){
+		print "<a href=$home>ï¿½zï¿½[ï¿½ï¿½ï¿½ï¿½</a> | \n";
 	}
-	print "<a href=$script?mode=kekka>“Š•[Œ‹‰Ê</a>\n";
+	print "<a href=$script?mode=kekka>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½</a>\n";
 
 print <<"EOM";
 </div>
@@ -295,27 +295,27 @@ EOM
 
 <FORM action=\"$script\" method=\"$method\"> \n";
 
-	open (IN,$logfile) || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ"); #ƒf[ƒ^ƒtƒ@ƒCƒ‹“Ç‚Ýž‚Ý
-	@qset = <IN>;		#”z—ñqset‚Étohyo.log‚ÌŠes‚ª—v‘f‚Æ‚µ‚Ä‚Í‚¢‚é
+	open (IN,$logfile) || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½"); #ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½ï¿½
+	@qset = <IN>;		#ï¿½zï¿½ï¿½qsetï¿½ï¿½tohyo.logï¿½ÌŠeï¿½sï¿½ï¿½ï¿½vï¿½fï¿½Æ‚ï¿½ï¿½Ä‚Í‚ï¿½ï¿½ï¿½
 	close(IN);
 
 	chop($qset[0]);
 	$qkazu = $qset[0];
-	for ($i=1;$i<=$qkazu;$i++){			#Ž¿–â‚Æ‘I‘ðŽˆ‚Ì“Ç‚Ýž‚Ý
-		@qtemp=split( /,/,$qset[$i]);		#“Ç‚Ýž‚ñ‚¾s‚ð¢,£‚Å‹æØ‚é
+	for ($i=1;$i<=$qkazu;$i++){			#ï¿½ï¿½ï¿½ï¿½Æ‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ì“Ç‚Ýï¿½ï¿½ï¿½
+		@qtemp=split( /,/,$qset[$i]);		#ï¿½Ç‚Ýï¿½ï¿½ñ‚¾sï¿½ï¿½,ï¿½ï¿½Å‹ï¿½Ø‚ï¿½
 		print "\n<center><div class=enq><h2>$qtemp[0]</h2>\n
 
 
 
 
-<ul>\n";	#–â‘è•¶‚Ì•\Ž¦
-		if ($qtemp[3] =~ m/select/){		#ƒvƒ‹ƒ_ƒEƒ“Œ`Ž®‚Ì‘I‘ðŽˆ
+<ul>\n";	#ï¿½ï¿½è•¶ï¿½Ì•\ï¿½ï¿½
+		if ($qtemp[3] =~ m/select/){		#ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½
 			print "<li><select name=$i>\n";
-			print "<option value='none'>‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢</option>\n";
+			print "<option value='none'>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option>\n";
 		}
-		for ($j=1;$j<=$qtemp[1];$j++){			#‘I‘ðŽˆ‚Ì•\Ž¦
-			($anstmp,$hyotmp)=split( /=/,$qtemp[$j+3]);	#‘I‘ðŽˆ‚Æ“¾•[”‚ð•ª‚¯‚é
-			if ($qtemp[3] =~ m/select/){		#ƒvƒ‹ƒ_ƒEƒ“Œ`Ž®‚Ì‘I‘ðŽˆ
+		for ($j=1;$j<=$qtemp[1];$j++){			#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì•\ï¿½ï¿½
+			($anstmp,$hyotmp)=split( /=/,$qtemp[$j+3]);	#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½[ï¿½ï¿½ï¿½ð•ª‚ï¿½ï¿½ï¿½
+			if ($qtemp[3] =~ m/select/){		#ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½
 				print "<option value=$i/$j>$anstmp</option>\n";
 			}else{
 				$t_temp3 = $qtemp[3];
@@ -323,10 +323,10 @@ EOM
 				print "<li><input type=$t_temp3 name=$i value=$i/$j> $anstmp</li>\n";
 			}
 		}
-		if ($qtemp[3] =~ m/select/){		#ƒvƒ‹ƒ_ƒEƒ“Œ`Ž®‚Ì‘I‘ðŽˆ
+		if ($qtemp[3] =~ m/select/){		#ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½
 			print "</select></li><br />\n\n";
 		}
-		if ($qtemp[2] eq 'yes'){			#‘I‘ðŽˆ‚Ì’Ç‰Á‚ðq‚Ë‚é
+		if ($qtemp[2] eq 'yes'){			#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½ï¿½ï¿½qï¿½Ë‚ï¿½
 			if ($qtemp[3] =~ m/select/){
 				$tmpadd = 'checkbox';
 			}else{
@@ -334,7 +334,7 @@ EOM
 				$tmpadd =~ s/=sort// , $tmpadd =~ s/=sosu//;
 			}
 			print "<li><input type=$tmpadd name=$i value=add>\n";
-			print "‚»‚Ì‘¼ <input type=text size=30 name=add$i></li>\n";
+			print "ï¿½ï¿½ï¿½Ì‘ï¿½ <input type=text size=30 name=add$i></li>\n";
 		}
 		print "</ul></div></center>\n";	
 	}
@@ -345,7 +345,7 @@ EOM
 
 
 <center><div class=enq><h2>$iken</h2>
-<ul><li>–¼‘O@<input type=text name=tname size="20"></li>
+<ul><li>ï¿½ï¿½ï¿½Oï¿½@<input type=text name=tname size="20"></li>
 <li><textarea name=toko rows=5 cols=70></textarea></li></ul>
 </div></center>
 EOM
@@ -355,8 +355,8 @@ EOM
 	print <<"EOM";
 <center>
 
-<INPUT type="submit" value="@@@“Š•[‚·‚é@@@"><br><br>
-‚²‹¦—Í‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½B
+<INPUT type="submit" value="ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½@ï¿½@ï¿½@"><br><br>
+ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 <input type="hidden" name="mode" value="tohyo"></CENTER></form>
 
 EOM
@@ -365,40 +365,40 @@ EOM
 }
 
 #----------------------------------
-#Œ‹‰Ê•\Ž¦
+#ï¿½ï¿½ï¿½Ê•\ï¿½ï¿½
 #----------------------------------
 sub tsuika{
-	&lock if ($lockkey); 	# ƒƒbƒNŠJŽn
+	&lock if ($lockkey); 	# ï¿½ï¿½ï¿½bï¿½Nï¿½Jï¿½n
 
-	open (IN,$logfile) || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ"); #ƒf[ƒ^ƒtƒ@ƒCƒ‹“Ç‚Ýž‚Ý
-	@qset=<IN>;			#ƒf[ƒ^‚ðˆês‚²‚Æ”z—ñqset‚É“ü‚ê‚é
+	open (IN,$logfile) || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½"); #ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½ï¿½
+	@qset=<IN>;			#ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Æ”zï¿½ï¿½qsetï¿½É“ï¿½ï¿½ï¿½ï¿½
 	close (IN);
 
-	chop(@qset);			#qset‚ÌÅŒã‚Ì‰üs‚ðŽæ‚èœ‚­
+	chop(@qset);			#qsetï¿½ÌÅŒï¿½Ì‰ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½èœï¿½ï¿½
 
 	$lahost=$qset[$qset[0]+3];
 	$host = $ENV{'REMOTE_HOST'};
 	$addr = $ENV{'REMOTE_ADDR'};
 	if ($host eq $addr) { $host = gethostbyaddr(pack('C4',split(/\./,$host)),2) || $addr; }
 	#if ($lahost eq $host && $mode eq 'tohyo') {
-	#	&error("˜A‘±“Š•[‚Í‚Å‚«‚Ü‚¹‚ñB<br><br>(Ú‘±ƒzƒXƒg‚ð•Ï‚¦‚Ä“Š•[‚ðŽŽ‚µ‚Ä‚Ý‚Ä‚­‚¾‚³‚¢)");}
+	#	&error("ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Í‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B<br><br>(ï¿½Ú‘ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½Ï‚ï¿½ï¿½Ä“ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)");}
 
-	&head;				#ƒwƒbƒ_o—Í
-	&jikan(0);			#Œ»ŽžŠÔ“Ç‚Ýž‚Ý
+	&head;				#ï¿½wï¿½bï¿½_ï¿½oï¿½ï¿½
+	&jikan(0);			#ï¿½ï¿½ï¿½ï¿½ï¿½Ô“Ç‚Ýï¿½ï¿½ï¿½
 
 
-	print "<h1>“Š•[ó‹µ</h1><div class=head>\n";
-	if ($home ne 'http://'){
-		print "<a href=$home>ƒz[ƒ€</a> | \n";
+	print "<h1>ï¿½ï¿½ï¿½[ï¿½ï¿½</h1><div class=head>\n";
+	if ($home ne '//'){
+		print "<a href=$home>ï¿½zï¿½[ï¿½ï¿½</a> | \n";
 	}
 
-	print "<a href=$script>ƒAƒ“ƒP[ƒg‚Ö–ß‚é</a>\n";
-	print "<BR>[$jikanl]Œ»Ý‚Ì“Š•[ó‹µ‚Å‚·B</div>\n";
+	print "<a href=$script>ï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½gï¿½Ö–ß‚ï¿½</a>\n";
+	print "<BR>[$jikanl]ï¿½ï¿½ï¿½Ý‚Ì“ï¿½ï¿½[ï¿½ó‹µ‚Å‚ï¿½ï¿½B</div>\n";
 
 	if ($mode eq 'tohyo'){
 		print "
 
-<center><div class=\"mes\">‚¨“š‚¦’¸‚«‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚µ‚½B</div></center>
+<center><div class=\"mes\">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B</div></center>
 \n";
 		print "<br>\n\n";
 	}
@@ -407,39 +407,39 @@ sub tsuika{
 
 	$qkazu=$qset[0];
 	$qset[0]="$qset[0]\n";
-	for ($i=1;$i<=$qkazu;$i++){		#Ž¿–â‚²‚Æ‚Ìˆ—		
-		@qtemp=split(/,/,$qset[$i]);	#s“àƒf[ƒ^‚ð¢,£‚Å•ª‚¯‚Ä”z—ñqtemp‚ÉŠi”[	
-		$add = $in{"add$i"};	#’Ç‰Á‚·‚é‘I‘ðŽˆ“à—e
-		$tothyo = 0;		#Ž¿–â•Ê‚Ì‘•[”
-		$maxhyo = 1;		#Ž¿–â•Ê‚ÌÅ‚“¾•[”
-		for ($j=1;$j<=$qtemp[1];$j++){			#Šù‘¶‚Ì‘I‘ðŽˆ‚Ö‚Ìˆ—
+	for ($i=1;$i<=$qkazu;$i++){		#ï¿½ï¿½ï¿½â‚²ï¿½Æ‚Ìï¿½ï¿½ï¿½		
+		@qtemp=split(/,/,$qset[$i]);	#ï¿½sï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½,ï¿½ï¿½Å•ï¿½ï¿½ï¿½ï¿½Ä”zï¿½ï¿½qtempï¿½ÉŠiï¿½[	
+		$add = $in{"add$i"};	#ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½e
+		$tothyo = 0;		#ï¿½ï¿½ï¿½ï¿½Ê‚Ì‘ï¿½ï¿½[ï¿½ï¿½
+		$maxhyo = 1;		#ï¿½ï¿½ï¿½ï¿½Ê‚ÌÅï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+		for ($j=1;$j<=$qtemp[1];$j++){			#ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ìï¿½ï¿½ï¿½
 			($anstmp[$j],$hyotmp[$j])=split(/=/,$qtemp[$j+3]);
 			$done=0;
 			foreach $x (@ans){		
 				if ("$i/$j" eq $x){
-					$hyotmp[$j]++,$done=1; #•[”‚Ì’Ç‰Á
+					$hyotmp[$j]++,$done=1; #ï¿½[ï¿½ï¿½ï¿½Ì’Ç‰ï¿½
 				}
 			}
 			if ($add eq $anstmp[$j] ){
-				$add='';			#’Ç‰Á‚·‚é‘I‘ðŽˆ‚ªŠù‘¶
+				$add='';			#ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				if ($done == 0 ){
 					$hyotmp[$j]++;
 				}
 			}
-			if ($hyotmp[$j] > $maxhyo){	#Å‚“¾•[”‚ÌXV
+			if ($hyotmp[$j] > $maxhyo){	#ï¿½Åï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÌXï¿½V
 				$maxhyo = $hyotmp[$j];
 			}
-			$qtemp[$j+3]="$anstmp[$j]=$hyotmp[$j]";	#XVƒf[ƒ^‚ðŠi”[
-			$tothyo += $hyotmp[$j];			#Ž¿–â‚²‚Æ‘•[”XV
+			$qtemp[$j+3]="$anstmp[$j]=$hyotmp[$j]";	#ï¿½Xï¿½Vï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½iï¿½[
+			$tothyo += $hyotmp[$j];			#ï¿½ï¿½ï¿½â‚²ï¿½Æ‘ï¿½ï¿½[ï¿½ï¿½ï¿½Xï¿½V
 		}
-		if ($in{$i} eq 'add' && $add ne ''){		#‘I‘ðŽˆ’Ç‰Á
+		if ($in{$i} eq 'add' && $add ne ''){		#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
 			$qtemp[$j+3]="$add=1",$tothyo++;
 			$anstmp[$j]=$add,$hyotmp[$j]=1,$qtemp[1]++,$j++;
 		}
 
-		#•[”‚É‚æ‚éƒ\[ƒg•\Ž¦
+		#ï¿½[ï¿½ï¿½ï¿½É‚ï¿½ï¿½\ï¿½[ï¿½gï¿½\ï¿½ï¿½
 		if ($qtemp[3] =~ m/sort/){
-			$hyotmp[0] = 0; #ƒ_ƒ~[
+			$hyotmp[0] = 0; #ï¿½_ï¿½~ï¿½[
 			@sizensu = ();
 			for ($j=0;$j<$qtemp[1];$j++){
 				$sizensu[$j] = $j + 1 ;
@@ -457,16 +457,16 @@ sub tsuika{
 			}
 		}				
 
-		print "\n<h3>$qtemp[0]</h3>";		#Ž¿–â•¶‚Ì•\Ž¦
+		print "\n<h3>$qtemp[0]</h3>";		#ï¿½ï¿½ï¿½â•¶ï¿½Ì•\ï¿½ï¿½
 		if ($qtemp[3] =~ m/sosu/){
-			print "\n<div class=sou>“Š•[‘” $tothyo •[</div>";	#“Š•[‘”•\Ž¦
+			print "\n<div class=sou>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ $tothyo ï¿½[</div>";	#ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
 		}
-		print "\n<center><table class=tab4>";	#Œ‹‰Ê•\Ž¦
+		print "\n<center><table class=tab4>";	#ï¿½ï¿½ï¿½Ê•\ï¿½ï¿½
 		for ($j=1;$j<=$qtemp[1];$j++){
-			$wari[$j]=0;	#•[‚ÌŠ„‡
-			$width = 0;	#ƒOƒ‰ƒt‰æ‘œ•\Ž¦•
+			$wari[$j]=0;	#ï¿½[ï¿½ÌŠï¿½ï¿½ï¿½
+			$width = 0;	#ï¿½Oï¿½ï¿½ï¿½tï¿½æ‘œï¿½\ï¿½ï¿½ï¿½ï¿½
 			print "\n<tr><td>$h_anstmp[$j]</td>";
-			print "<th width=60 align=center>$h_hyotmp[$j] •[</th>";
+			print "<th width=60 align=center>$h_hyotmp[$j] ï¿½[</th>";
 			if ($qtemp[3] =~ m/radio/ || $qtemp[3] =~ m/select/){
 				if ($tothyo>0) {
 					$wari[$j]=sprintf("%.1f",$h_hyotmp[$j]*100/$tothyo);
@@ -482,17 +482,17 @@ sub tsuika{
 			print "<img src=$graphgif height=8 width=$width></td></tr>\n";
 		}
 		print "</table></center>\n\n";
-		push(@qtemp,"\n");		#s––‚É‰üs‚ð‚Â‚¯‚é
-		$qset[$i]=join(",",@qtemp);	#sƒf[ƒ^‚ðXV‚·‚é
-	}					#Ž¿–â‚²‚Æ‚Ìˆ—‚ÌI—¹
+		push(@qtemp,"\n");		#ï¿½sï¿½ï¿½ï¿½É‰ï¿½ï¿½sï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½
+		$qset[$i]=join(",",@qtemp);	#ï¿½sï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½
+	}					#ï¿½ï¿½ï¿½â‚²ï¿½Æ‚Ìï¿½ï¿½ï¿½ï¿½ÌIï¿½ï¿½
 
-	#ƒƒbƒZ[ƒW‚Ìˆ—
+	#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Ìï¿½ï¿½ï¿½
 	$host = $ENV{'REMOTE_HOST'};
 	$addr = $ENV{'REMOTE_ADDR'};
 	if ($host eq $addr) { $host = gethostbyaddr(pack('C4',split(/\./,$host)),2) || $addr; }
  
 	@tnaiyo = split(/<br>/,$qset[$qkazu+1],$mkazu+1);
-	if($in{'toko'} ne ''){			#ƒƒbƒZ[ƒWXV
+	if($in{'toko'} ne ''){			#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Xï¿½V
 		unshift (@tnaiyo,"<tr><th>$in{'tname'} ($jikanl)</th><td>$in{'toko'}</td>");
 	} 
 	splice (@tnaiyo,$mkazu);
@@ -503,61 +503,61 @@ sub tsuika{
 
 		print "<h4>$iken2</h4>\n";
 		print "<table class=tab5>\n";
-		print "$qset[$qkazu+1]\n";	#ƒƒbƒZ[ƒW•\Ž¦
+		print "$qset[$qkazu+1]\n";	#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½\ï¿½ï¿½
 		print "</table>\n";
 	}
 
 	if ($mode eq 'tohyo'){
- 	$qset[$qkazu+2]="$jikanl \n";			#ÅI“Š•[ŽžŠÔXV
+ 	$qset[$qkazu+2]="$jikanl \n";			#ï¿½ÅIï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÔXï¿½V
 	}else{
 	$qset[$qkazu+2]="$qset[$qkazu+2]\n";
 	}
 
 	if ($mode eq 'tohyo'){
- 	$qset[$qkazu+3]="$host\n";			#ÅI“Š•[ƒzƒXƒgXV
+ 	$qset[$qkazu+3]="$host\n";			#ï¿½ÅIï¿½ï¿½ï¿½[ï¿½zï¿½Xï¿½gï¿½Xï¿½V
 	}else{
 	$qset[$qkazu+3]="$qset[$qkazu+3]\n";
 	}
 
-	$qset[$qkazu+4]="$qset[$qkazu+4]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+5]="$qset[$qkazu+5]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+6]="$qset[$qkazu+6]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+7]="$qset[$qkazu+7]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+8]="$qset[$qkazu+8]\n";		#––ƒf[ƒ^ˆ—
+	$qset[$qkazu+4]="$qset[$qkazu+4]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+5]="$qset[$qkazu+5]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+6]="$qset[$qkazu+6]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+7]="$qset[$qkazu+7]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+8]="$qset[$qkazu+8]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
 
-	#ƒf[ƒ^ƒtƒ@ƒCƒ‹XV
-	open (OUT,">$logfile") || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ");				
+	#ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Xï¿½V
+	open (OUT,">$logfile") || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");				
 	print OUT @qset;
 	close(OUT);
 	
-	&unlock if ($lockkey); # ƒƒbƒN‰ðœ
+	&unlock if ($lockkey); # ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	
-	print "<center><div class=back><a href=$script>ƒAƒ“ƒP[ƒg‚É–ß‚é</a></div></center>\n";
-	&foot;					#ƒtƒbƒ^•\Ž¦
+	print "<center><div class=back><a href=$script>ï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½gï¿½É–ß‚ï¿½</a></div></center>\n";
+	&foot;					#ï¿½tï¿½bï¿½^ï¿½\ï¿½ï¿½
 }
 
 #----------------------------------
-#ŠÇ—ŽÒ—p
+#ï¿½Ç—ï¿½ï¿½Ò—p
 #----------------------------------
 sub kanri{
-	if ($in{'pass'} ne "$pass") {&error('ŠÇ—ŽÒƒ‚[ƒh');}	
+	if ($in{'pass'} ne "$pass") {&error('ï¿½Ç—ï¿½ï¿½Òƒï¿½ï¿½[ï¿½h');}	
 
 	&jikan(0);
 
 	&head;
 	print <<"EOM";
 
-<h1>ŠÇ—ƒy[ƒW</h1><div class=head><a href=$script>ƒAƒ“ƒP[ƒg‰æ–Ê‚Ö</a></div>
+<h1>ï¿½Ç—ï¿½ï¿½yï¿½[ï¿½W</h1><div class=head><a href=$script>ï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½gï¿½ï¿½Ê‚ï¿½</a></div>
 
 EOM
 
-	&lock if ($lockkey); 	# ƒƒbƒNŠJŽn
+	&lock if ($lockkey); 	# ï¿½ï¿½ï¿½bï¿½Nï¿½Jï¿½n
 
-	open (IN,$logfile) || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ"); #ƒf[ƒ^ƒtƒ@ƒCƒ‹“Ç‚Ýž‚Ý
-	@qset=<IN>;			#ƒf[ƒ^‚ðˆês‚²‚Æ”z—ñqset‚É“ü‚ê‚é
+	open (IN,$logfile) || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½"); #ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½ï¿½
+	@qset=<IN>;			#ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Æ”zï¿½ï¿½qsetï¿½É“ï¿½ï¿½ï¿½ï¿½
 	close (IN);
 
-	chop(@qset);			#qset‚ÌÅŒã‚Ì‰üs‚ðŽæ‚èœ‚­
+	chop(@qset);			#qsetï¿½ÌÅŒï¿½Ì‰ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½èœï¿½ï¿½
 
 	print "\n";
 
@@ -565,44 +565,44 @@ EOM
 	$qkazu=$qset[0];
 	$qset[0]="$qset[0]\n";
 
-	#Ž¿–â‚ÌÁ‹Ž
+	#ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
 	foreach $x (@delque){
 		splice(@qset,$x,1);
 		$qkazu--;
 		$qset[0]="$qkazu\n";
 	}
 
-	#Ž¿–â‚Ì’Ç‰Á
+	#ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½
 	if ($in{'addque'} ne ''){
 		$qkazu++;
-		$qset[0]="$qkazu\n";		#Ž¿–â”‚ÌXV
+		$qset[0]="$qkazu\n";		#ï¿½ï¿½ï¿½â”ï¿½ÌXï¿½V
 		splice(@qset,1+$in{'ajun'},0,"$in{'addque'},0,$in{'aadd'},$in{'rc'},"); 
 	}
 
-	for ($i=1;$i<=$qkazu;$i++){		#Ž¿–â‚²‚Æ‚Ìˆ—		
-		@qtemp=split(/,/,$qset[$i]);	#s“àƒf[ƒ^‚ð¢,£‚Å•ª‚¯‚Ä”z—ñqtemp‚ÉŠi”[	
+	for ($i=1;$i<=$qkazu;$i++){		#ï¿½ï¿½ï¿½â‚²ï¿½Æ‚Ìï¿½ï¿½ï¿½		
+		@qtemp=split(/,/,$qset[$i]);	#ï¿½sï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½,ï¿½ï¿½Å•ï¿½ï¿½ï¿½ï¿½Ä”zï¿½ï¿½qtempï¿½ÉŠiï¿½[	
 		$add=$in{"add$i"},$tothyo=0;	
 
-		if ($in{'qubunc'} eq $i){	#Ž¿–â•¶‚ÌXV
+		if ($in{'qubunc'} eq $i){	#ï¿½ï¿½ï¿½â•¶ï¿½ÌXï¿½V
 			$qtemp[0] = $in{'qubun'};
 		}		
-		if ($in{'qtyc'} eq $i){		#‰ñ“š•û–@‚ÌXV
+		if ($in{'qtyc'} eq $i){		#ï¿½ñ“š•ï¿½ï¿½@ï¿½ÌXï¿½V
 			$qtemp[2] = $in{'aadd'};
 			$qtemp[3] = $in{'rc'};
 			if ($in{'sort'} && $qtemp[3] !~ m/sort/){
-				$qtemp[3] .= '=sort';	#ƒ\[ƒg—L–³‚Ì•ÏX
+				$qtemp[3] .= '=sort';	#ï¿½\ï¿½[ï¿½gï¿½Lï¿½ï¿½ï¿½Ì•ÏX
 			}elsif (!$in{'sort'}){
 				$qtemp[3] =~ s/=sort//;
 			}
 			if ($in{'sosu'} && $qtemp[3] !~ m/sosu/){
-				$qtemp[3] .= '=sosu';	#“Š•[‘”•\Ž¦—L–³‚Ì•ÏX
+				$qtemp[3] .= '=sosu';	#ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ì•ÏX
 			}elsif (!$in{'sort'}){
 				$qtemp[3] =~ s/=sosu//;
 			}
 		}		
 
 
-		print "\n<div class=kanri_enq><center><h3>$qtemp[0]</h3>\n";		#Ž¿–â•¶‚Ì•\Ž¦
+		print "\n<div class=kanri_enq><center><h3>$qtemp[0]</h3>\n";		#ï¿½ï¿½ï¿½â•¶ï¿½Ì•\ï¿½ï¿½
 		print "
 			<table class=\"tab\">
 			<form action=$script method=$method>
@@ -611,9 +611,9 @@ EOM
 			<input type=hidden name=k_mode value=bunhen>
 			<input type=hidden name=qubunc value=$i>
 			<tr>
-			<th>Ž¿–â•¶‚Ì•ÏX</th>
+			<th>ï¿½ï¿½ï¿½â•¶ï¿½Ì•ÏX</th>
 			<td><input type=text size=70 name=qubun value='$qtemp[0]'></td>
-			<td><input type=submit value='•ÏX'></td>
+			<td><input type=submit value='ï¿½ÏX'></td>
 			</tr>
 			</form>
 			
@@ -622,36 +622,36 @@ EOM
 			<input type=hidden name=pass value=$pass>
 			<input type=hidden name=$i value=add>
 			<tr>
-			<th>‘I‘ðŽˆ‚ð’Ç‰Á</th>
+			<th>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½</th>
 			<td><input type=text size=70 name=add$i></td>
-			<td><input type=submit value='’Ç‰Á'></td>
+			<td><input type=submit value='ï¿½Ç‰ï¿½'></td>
 			</tr>
 			</form>
 			</table>
 
 
-		\n";		#Ž¿–â•¶‚Ì•ÏX‚Æ’Ç‰Á
+		\n";		#ï¿½ï¿½ï¿½â•¶ï¿½Ì•ÏXï¿½Æ’Ç‰ï¿½
 
 
 
-		for ($j=1;$j<=$qtemp[1];$j++){			#Šù‘¶‚Ì‘I‘ðŽˆ‚Ö‚Ìˆ—
+		for ($j=1;$j<=$qtemp[1];$j++){			#ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ìï¿½ï¿½ï¿½
 			($anstmp[$j],$hyotmp[$j])=split(/=/,$qtemp[$j+3]);
 			$done=0;
 
 			if ($in{'qrset'} eq $i){
-				$hyotmp[$j] = 0;	#•[”‚ðƒŠƒZƒbƒg
+				$hyotmp[$j] = 0;	#ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½g
 			}
 
 			if ($add eq $anstmp[$j] ){
-				$add='';			#’Ç‰Á‚·‚é‘I‘ðŽˆ‚ªŠù‘¶
+				$add='';			#ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			}
 
-			$qtemp[$j+3]="$anstmp[$j]=$hyotmp[$j]";	#XVƒf[ƒ^‚ðŠi”[
-			$tothyo += $hyotmp[$j];			#Ž¿–â‚²‚Æ‘•[”XV
+			$qtemp[$j+3]="$anstmp[$j]=$hyotmp[$j]";	#ï¿½Xï¿½Vï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½iï¿½[
+			$tothyo += $hyotmp[$j];			#ï¿½ï¿½ï¿½â‚²ï¿½Æ‘ï¿½ï¿½[ï¿½ï¿½ï¿½Xï¿½V
 
 			foreach $x (@del){
 				if ("$i/$j" eq $x && $chfl == 0){
-					splice(@qtemp,$j+3,1);	#‘I‘ðŽˆ‚Ìœ‹Ž
+					splice(@qtemp,$j+3,1);	#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
 					$tothyo -= $hyotmp[$j];
 					$hyotmp[$j]=0;
 					$qtemp[1]--;
@@ -660,13 +660,13 @@ EOM
 			}
 		}
 
-		if ($in{$i} eq 'add' && $add ne ''){		#‘I‘ðŽˆ’Ç‰Á
+		if ($in{$i} eq 'add' && $add ne ''){		#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
 			$qtemp[$j+3]="$add=0";
 			$anstmp[$j]=$add,$hyotmp[$j]=0,$qtemp[1]++,$j++;
 		}
 
-		print "<div class=sou>“Š•[‘” $tothyo •[</div>";	#“Š•[‘”•\Ž¦
-		print "\n<table class=\"tab3\">";	#Œ‹‰Ê•\Ž¦
+		print "<div class=sou>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ $tothyo ï¿½[</div>";	#ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
+		print "\n<table class=\"tab3\">";	#ï¿½ï¿½ï¿½Ê•\ï¿½ï¿½
 		for ($j=1;$j<=$qtemp[1];$j++){
 			$wari[$j]=0;
 			if ($tothyo>0) {
@@ -674,7 +674,7 @@ EOM
 			}
 			$width = int ( 3 * $wari[$j] );
 			print "\n<tr><th>$anstmp[$j]</th>";
-			print "<td align=center width=100>$hyotmp[$j] •[</td>";
+			print "<td align=center width=100>$hyotmp[$j] ï¿½[</td>";
 			if ($qtemp[3] =~ m/radio/){
 				print "<td align=center width=100>$wari[$j] %</td>";
 			}
@@ -683,7 +683,7 @@ EOM
 			print "\n";
 			print "<input type=hidden name=mode value=kanri>\n";
 			print "<input type=hidden name=pass value=$pass>\n";
-			print "<input type=submit value='íœ'>\n";
+			print "<input type=submit value='ï¿½íœ'>\n";
 			print "<input type=hidden name=del value=$i/$j>\n";
 			print "</td></form></tr>\n";
 		}
@@ -698,68 +698,68 @@ EOM
 		print "<br>\n";
 		if ($qtemp[3] =~ m/radio/){
 			print " <select name=rc>
- <option value=radio selected>ƒ‰ƒWƒIƒ{ƒ^ƒ“</option>
- <option value=select>ƒvƒ‹ƒ_ƒEƒ“</option>
- <option value=checkbox>•¡”‰ñ“šƒ`ƒFƒbƒN</option>
+ <option value=radio selected>ï¿½ï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½</option>
+ <option value=select>ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½</option>
+ <option value=checkbox>ï¿½ï¿½ï¿½ï¿½ï¿½ñ“šƒ`ï¿½Fï¿½bï¿½N</option>
  </select>\n";
 
 
 
 		}elsif($qtemp[3] =~ m/select/){
 			print " <select name=rc>
- <option value=radio>ƒ‰ƒWƒIƒ{ƒ^ƒ“</option>
- <option value=select selected>ƒvƒ‹ƒ_ƒEƒ“</option>
- <option value=checkbox>•¡”‰ñ“šƒ`ƒFƒbƒN</option>
+ <option value=radio>ï¿½ï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½</option>
+ <option value=select selected>ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½</option>
+ <option value=checkbox>ï¿½ï¿½ï¿½ï¿½ï¿½ñ“šƒ`ï¿½Fï¿½bï¿½N</option>
  </select>\n";
 
 		}else{
 			print " <select name=rc>
- <option value=radio>ƒ‰ƒWƒIƒ{ƒ^ƒ“</option>
- <option value=select>ƒvƒ‹ƒ_ƒEƒ“</option>
- <option value=checkbox selected>•¡”‰ñ“šƒ`ƒFƒbƒN</option>
+ <option value=radio>ï¿½ï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½</option>
+ <option value=select>ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½</option>
+ <option value=checkbox selected>ï¿½ï¿½ï¿½ï¿½ï¿½ñ“šƒ`ï¿½Fï¿½bï¿½N</option>
  </select>\n";
 
 		}
 		if ($qtemp[2] eq 'yes'){
 			print " <select name=aadd>
- <option value=yes selected>‘I‘ðŽˆ‚Ì’Ç‰Á‚ð‹–‰Â</option>
- <option value=no>‘I‘ðŽˆ‚Ì’Ç‰Á‚È‚µ</option>
+ <option value=yes selected>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option>
+ <option value=no>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½ï¿½È‚ï¿½</option>
  </select>\n";
 
 		}else{
 			print " <select name=aadd>
- <option value=yes>‘I‘ðŽˆ‚Ì’Ç‰Á‚ð‹–‰Â</option>
- <option value=no selected>‘I‘ðŽˆ‚Ì’Ç‰Á‚È‚µ</option>
+ <option value=yes>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option>
+ <option value=no selected>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½ï¿½È‚ï¿½</option>
  </select>\n";
 
 		}
 		if($qtemp[3] =~ m/sort/){
 			print " <select name=sort>
- <option value=1 selected>•[”‡‚É•À‘Ö‚¦</option>
- <option value=0>’ñŽ¦‡‚É\•\\Ž¦</option>
+ <option value=1 selected>ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É•ï¿½ï¿½Ö‚ï¿½</option>
+ <option value=0>ï¿½ñŽ¦ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½</option>
  </select>\n";
 
 		}else{
 			print " <select name=sort>
- <option value=1>•[”‡‚É•À‘Ö‚¦</option>
- <option value=0 selected>’ñŽ¦‡‚É\•\\Ž¦</option>
+ <option value=1>ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É•ï¿½ï¿½Ö‚ï¿½</option>
+ <option value=0 selected>ï¿½ñŽ¦ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½</option>
  </select>\n";
 
 		}
 		if ($qtemp[3] =~ m/sosu/){
 			print " <select name=sosu>
- <option value=1 selected>“Š•[”‚ð\•\\Ž¦‚·‚é</option>
- <option value=0>“Š•[”‚ð\•\\Ž¦‚µ‚È‚¢</option>
+ <option value=1 selected>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option>
+ <option value=0>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½</option>
  </select>\n";
 
 		}else{	
 			print " <select name=sosu>
- <option value=1>“Š•[”‚ð\•\\Ž¦‚·‚é</option>
- <option value=0 selected>“Š•[”‚ð\•\\Ž¦‚µ‚È‚¢</option>
+ <option value=1>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</option>
+ <option value=0 selected>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½</option>
  </select>\n";
 
 		}
-		print "<input type=submit value='•ÏX'>\n";
+		print "<input type=submit value='ï¿½ÏX'>\n";
 		print "</form>\n\n";
 
 		print "<BR><table><tr>
@@ -768,26 +768,26 @@ EOM
 		print "<input type=hidden name=mode value=kanri>\n";
 		print "<input type=hidden name=pass value=$pass>\n";
 		print "<input type=hidden name=qrset value=$i>\n";
-		print "<input type=submit value='•[”ƒŠƒZƒbƒg'>\n";
+		print "<input type=submit value='ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½g'>\n";
 
 		print "</form></td>\n";
 
 		print "<td><form action=$script method=$method>\n";
 		print "<input type=hidden name=mode value=kanri>\n";
 		print "<input type=hidden name=pass value=$pass>\n";
-		print "<input type=submit value='‚±‚ÌŽ¿–â‚ðíœ‚·‚é'>\n";
-		if ($qtemp[1] == 0){	#‚±‚ÌŽ¿–â‚É‘I‘ðŽˆ‚ª‚È‚¢ê‡
+		print "<input type=submit value='ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½'>\n";
+		if ($qtemp[1] == 0){	#ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½É‘Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡
 		print "<input type=hidden name=delque value=$i>\n";
-		}else{			#‚±‚ÌŽ¿–â‚Ì‘I‘ðŽˆ‚ªŽc‚Á‚Ä‚¢‚éê‡
+		}else{			#ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡
 		print "<input type=hidden name=delque value=\"muko\">\n";
 		}
 		print "</form></td></table>\n";
-		print "<br>Ž¿–â‚ðíœ‚·‚éê‡‚Í‚·‚×‚Ä‚Ì‘I‘ðŽˆ‚ðíœ‚µ‚Ä‚©‚çs‚Á‚Ä‚­‚¾‚³‚¢B</center></div>\n";
+		print "<br>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½ê‡ï¿½Í‚ï¿½ï¿½×‚Ä‚Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B</center></div>\n";
 
 
-		push(@qtemp,"\n");		#s––‚É‰üs‚ð‚Â‚¯‚é
-		$qset[$i]=join(",",@qtemp);	#sƒf[ƒ^‚ðXV‚·‚é
-	}					#Ž¿–â‚²‚Æ‚Ìˆ—‚ÌI—¹
+		push(@qtemp,"\n");		#ï¿½sï¿½ï¿½ï¿½É‰ï¿½ï¿½sï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½
+		$qset[$i]=join(",",@qtemp);	#ï¿½sï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½
+	}					#ï¿½ï¿½ï¿½â‚²ï¿½Æ‚Ìï¿½ï¿½ï¿½ï¿½ÌIï¿½ï¿½
 
 
 
@@ -798,51 +798,51 @@ EOM
 
 
 	print "<div class=add><form action=$script method=$method>\n";
-	print "<h3>Ž¿–â‚ð’Ç‰Á‚·‚é</h3>\n";
+	print "<h3>ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½</h3>\n";
 	print "\n";
 	print "<input type=hidden name=mode value=kanri>\n";
 	print "<input type=hidden name=pass value=$pass>\n";
 	print "<input type=hidden name=k_mode value=bunadd>\n";
-	print "<center><table class=tab6><tr><th>Ž¿–â’Ç‰ÁˆÊ’u</th><td>\n";
+	print "<center><table class=tab6><tr><th>ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½Ê’u</th><td>\n";
 
 	print "<select name=ajun>\n";
 	if ($qkazu > 0){
-	print "<option value=$qkazu>ÅŒã  ($qkazu”Ô–Ú‚ÌŽ¿–â‚ÌŒã)</option>\n";
+	print "<option value=$qkazu>ï¿½ÅŒï¿½  ($qkazuï¿½Ô–Ú‚ÌŽï¿½ï¿½ï¿½ÌŒï¿½)</option>\n";
 	}
-	print "<option value=0>æ“ª</option>\n";
+	print "<option value=0>ï¿½æ“ª</option>\n";
 	for ($i=1;$i<=$qkazu-1;$i++){
-		print "<option value=$i>$i”Ô–Ú‚ÌŽ¿–â‚ÌŒã</option>\n";
+		print "<option value=$i>$iï¿½Ô–Ú‚ÌŽï¿½ï¿½ï¿½ÌŒï¿½</option>\n";
 	}
-	print "</select> ‚É’Ç‰Á</td></tr>\n";
-	print "<tr><th>Ž¿–â•¶</th><td>\n";
+	print "</select> ï¿½É’Ç‰ï¿½</td></tr>\n";
+	print "<tr><th>ï¿½ï¿½ï¿½â•¶</th><td>\n";
 	print "<input type=text size=60 name=addque></td></tr>\n";
-	print "<tr><th>‘I‘ðŒ`Ž®</th><td>\n";
-	print "<input type=radio name=rc value=radio checked>ƒ‰ƒWƒIƒ{ƒ^ƒ“\n";
-	print "<input type=radio name=rc value=select>ƒvƒ‹ƒ_ƒEƒ“\n";
-	print "<input type=radio name=rc value=checkbox>•¡”‰ñ“šƒ`ƒFƒbƒNƒ{ƒbƒNƒX</td></tr>\n";
-	print "<tr><th>‘I‘ðŽˆ‚Ì’Ç‰Á</th><td>\n";
+	print "<tr><th>ï¿½Iï¿½ï¿½ï¿½`ï¿½ï¿½</th><td>\n";
+	print "<input type=radio name=rc value=radio checked>ï¿½ï¿½ï¿½Wï¿½Iï¿½{ï¿½^ï¿½ï¿½\n";
+	print "<input type=radio name=rc value=select>ï¿½vï¿½ï¿½ï¿½_ï¿½Eï¿½ï¿½\n";
+	print "<input type=radio name=rc value=checkbox>ï¿½ï¿½ï¿½ï¿½ï¿½ñ“šƒ`ï¿½Fï¿½bï¿½Nï¿½{ï¿½bï¿½Nï¿½X</td></tr>\n";
+	print "<tr><th>ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½</th><td>\n";
 
-	print "<input type=radio name=aadd value=yes>‹–‰Â‚·‚é\n";
-	print "<input type=radio name=aadd value=no checked>‹–‰Â‚µ‚È‚¢</td></tr>\n";
-	print "<tr><th>•À‚Ñ‘Ö‚¦</th><td>\n";
+	print "<input type=radio name=aadd value=yes>ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½\n";
+	print "<input type=radio name=aadd value=no checked>ï¿½ï¿½ï¿½Â‚ï¿½ï¿½È‚ï¿½</td></tr>\n";
+	print "<tr><th>ï¿½ï¿½ï¿½Ñ‘Ö‚ï¿½</th><td>\n";
 
-	print "<input type=radio name=sort value=1>•[”‡‚É•À‘Ö‚¦‚é\n";
-	print "<input type=radio name=sort value=0 checked>’ñŽ¦‡‚É\•\\Ž¦</td></tr>\n";
-	print "<tr><th>“Š•[”\•\\Ž¦</th><td>\n";
+	print "<input type=radio name=sort value=1>ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É•ï¿½ï¿½Ö‚ï¿½ï¿½ï¿½\n";
+	print "<input type=radio name=sort value=0 checked>ï¿½ñŽ¦ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½</td></tr>\n";
+	print "<tr><th>ï¿½ï¿½ï¿½[ï¿½ï¿½\ï¿½\\ï¿½ï¿½</th><td>\n";
 
-	print "<input type=radio name=sosu value=1>“Š•[”‚ð\•\\Ž¦‚·‚é\n";
-	print "<input type=radio name=sosu value=0 checked>“Š•[”‚ð\•\\Ž¦‚µ‚È‚¢</td></tr>\n";
+	print "<input type=radio name=sosu value=1>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n";
+	print "<input type=radio name=sosu value=0 checked>ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½\ï¿½\\ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½</td></tr>\n";
 	print "</table></center>\n";
-	print "<center><input type=submit value='’Ç‰Á‚·‚é'></center>\n";
+	print "<center><input type=submit value='ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½'></center>\n";
 	print "</form></div>\n\n";
 	
-	#ƒƒbƒZ[ƒW‚Ìˆ—
+	#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Ìï¿½ï¿½ï¿½
 	$host = $ENV{'REMOTE_HOST'};
 	$addr = $ENV{'REMOTE_ADDR'};
 	if ($host eq $addr) { $host = gethostbyaddr(pack('C4',split(/\./,$host)),2) || $addr; }
  
 	@tnaiyo = split(/<br>/,$qset[$qkazu+1],$mkazu+1);
-	if($in{'toko'} ne ''){			#ƒƒbƒZ[ƒWXV
+	if($in{'toko'} ne ''){			#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Xï¿½V
 
 
 
@@ -854,9 +854,9 @@ EOM
 		$tnaiyocp = $tnaiyo[$in{'todel'}-1];
 		$tnaiyocp =~ tr/<> //d; 
 		if ($tnaiyocp eq $in{'todelnai'}){
-			splice (@tnaiyo,$in{'todel'}-1,1);	#“Še“à—e‚Ìíœ
+			splice (@tnaiyo,$in{'todel'}-1,1);	#ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½eï¿½Ìíœ
 		}else{
-			print "<font color=red>V‹K“Še‚ª‚ ‚è‚Ü‚µ‚½BŠm”F‚µ‚Ä‚­‚¾‚³‚¢Bƒf[ƒ^•ÛŒì‚Ì‚½‚ß“Še‚ðíœ‚µ‚Ü‚¹‚ñB</font>\n";
+			print "<font color=red>ï¿½Vï¿½Kï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½fï¿½[ï¿½^ï¿½ÛŒï¿½Ì‚ï¿½ï¿½ß“ï¿½ï¿½eï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</font>\n";
 		}
 	}
 	$tnkazu = @tnaiyo;
@@ -865,12 +865,12 @@ EOM
 		print "<h4>$iken2</h4>\n";
 		print "<table class=tab5>\n";
 		if ($tnkazu == 0){
-			print "(Œ»Ý ”­Œ¾‚Í‚ ‚è‚Ü‚¹‚ñ)\n";
+			print "(ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½)\n";
 		}
 	}
 	for ($i=1;$i<=$tnkazu;$i++){
 
-	print "$tnaiyo[$i-1]\n";	#ƒƒbƒZ[ƒW•\Ž¦
+	print "$tnaiyo[$i-1]\n";	#ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½\ï¿½ï¿½
 
 
 	}
@@ -878,20 +878,20 @@ EOM
 	$qset[$qkazu+1] = join('<br>',@tnaiyo);
 	$qset[$qkazu+1] = "$qset[$qkazu+1]\n";
 	$qset[$qkazu+2]="$qset[$qkazu+2]\n";
-	$qset[$qkazu+3]="$qset[$qkazu+3]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+4]="$qset[$qkazu+4]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+5]="$qset[$qkazu+5]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+6]="$qset[$qkazu+6]\n";		#––ƒf[ƒ^ˆ—
-	$qset[$qkazu+7]="$qset[$qkazu+7]\n";		#––ƒf[ƒ^ˆ—
+	$qset[$qkazu+3]="$qset[$qkazu+3]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+4]="$qset[$qkazu+4]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+5]="$qset[$qkazu+5]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+6]="$qset[$qkazu+6]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
+	$qset[$qkazu+7]="$qset[$qkazu+7]\n";		#ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
 
 		print "</table>\n";
 
-	#ƒf[ƒ^ƒtƒ@ƒCƒ‹XV
-	open (OUT,">$logfile") || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ");				
+	#ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Xï¿½V
+	open (OUT,">$logfile") || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");				
 	print OUT @qset;
 	close(OUT);
 
-	&unlock if ($lockkey); # ƒƒbƒN‰ðœ
+	&unlock if ($lockkey); # ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	
 	&foot;
 }
@@ -900,99 +900,99 @@ EOM
 
 
 #----------------------------------
-#“ü—Íî•ñ‚Ì‰ðÍ
+#ï¿½ï¿½ï¿½Íï¿½ï¿½Ì‰ï¿½ï¿½
 #----------------------------------
 sub decode{
 	if ($ENV{'REQUEST_METHOD'} eq "POST") {
 		read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 	} else { $buffer = $ENV{'QUERY_STRING'}; }
 
-	open (IN,"$logfile") || &error("ƒƒOƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚Ü‚¹‚ñ");
+	open (IN,"$logfile") || &error("ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");
 	@qset=<IN>;
 	close (IN);
 
 	chop($qset[0]);
 
-	for($i=1;$i<=$qset[0];$i++){	#‰ð“šƒ`ƒFƒbƒN‚Ì‚½‚ß‚Ì”z—ñ
+	for($i=1;$i<=$qset[0];$i++){	#ï¿½ð“šƒ`ï¿½Fï¿½bï¿½Nï¿½Ì‚ï¿½ï¿½ß‚Ì”zï¿½ï¿½
 		$input[$i] = 0;
 		$addc[$i] = 0;
 	}
 
-	@pairs = split(/&/, $buffer);	#“ü—Íƒf[ƒ^‚²‚Æ‚É•ª‚¯‚é
+	@pairs = split(/&/, $buffer);	#ï¿½ï¿½ï¿½Íƒfï¿½[ï¿½^ï¿½ï¿½ï¿½Æ‚É•ï¿½ï¿½ï¿½ï¿½ï¿½
 	foreach $pair (@pairs) {
-		($name,$value) = split(/=/, $pair);	#name‚Ævalue‚É•ª‚¯‚é
-		$value =~ tr/+/ /d;			#‹ó”’•ÏŠ·
+		($name,$value) = split(/=/, $pair);	#nameï¿½ï¿½valueï¿½É•ï¿½ï¿½ï¿½ï¿½ï¿½
+		$value =~ tr/+/ /d;			#ï¿½ó”’•ÏŠï¿½
 		$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
-		$value =~ tr/\n/\ /d; #‰üs‹‘”Û
-		$value =~ tr/\n/ /d;			#‰üs‹‘”Û
-		$value =~ s/,/&sbquo;/g;		#¢,£‹‘”Û
-		if ($in{'k_mode'} ne 'bunhen'){$value =~ s/=/&#61;/g;}#¢=£‹‘”Û
-		if ($in{'mode'} ne 'kanri'){$value =~ s/</&lt;/g;}#¢<£‹‘”Û
-		&jcode'convert(*value,"$kanji");	#Š¿Žš•ÏŠ·ƒR[ƒhŽw’è
+		$value =~ tr/\n/\ /d; #ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½
+		$value =~ tr/\n/ /d;			#ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½
+		$value =~ s/,/&sbquo;/g;		#ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½
+		if ($in{'k_mode'} ne 'bunhen'){$value =~ s/=/&#61;/g;}#ï¿½=ï¿½ï¿½ï¿½ï¿½ï¿½
+		if ($in{'mode'} ne 'kanri'){$value =~ s/</&lt;/g;}#ï¿½<ï¿½ï¿½ï¿½ï¿½ï¿½
+		&jcode'convert(*value,"$kanji");	#ï¿½ï¿½ï¿½ï¿½ï¿½ÏŠï¿½ï¿½Rï¿½[ï¿½hï¿½wï¿½ï¿½
 
 		$in{$name} = $value;
 			
-		if ($name <= $qset[0] && $value ne 'none'){	#Ž¿–â‚Ö‚Ì‰ð“š‚ð‰ðÍ
+		if ($name <= $qset[0] && $value ne 'none'){	#ï¿½ï¿½ï¿½ï¿½Ö‚Ì‰ð“š‚ï¿½ï¿½ï¿½ï¿½
 			if( $value ne 'add'){
-				push (@ans,$value);	#Šù‘¶‚Ì‘I‘ðŽˆ‚Ö‚Ì“Š•[
-				if ($addc[$name] == 0){ #‘I‘ðŽˆ’Ç‰Áî•ñ–³‚µ
+				push (@ans,$value);	#ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ö‚Ì“ï¿½ï¿½[
+				if ($addc[$name] == 0){ #ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ñ–³‚ï¿½
 					$addc[$name] = 0;
 				}
 			}else{
-				$addc[$name] = 1 ;	#‘I‘ðŽˆ‚Ì’Ç‰Á
+				$addc[$name] = 1 ;	#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì’Ç‰ï¿½
 			}
 		$input[$name]=1;
 		}
-		if ($name > $qset[0]){ #‰ñ“š‚µ‚æ‚¤‚Æ‚µ‚½Ž¿–â‚ª‚·‚Å‚ÉíœÏ‚Ý
-			&error('‰ñ“š‚µ‚æ‚¤‚Æ‚µ‚½Ž¿–â‚ªíœ‚³‚ê‚Ä‚¢‚Ü‚·BŠm”F‚µ‚Ä‚­‚¾‚³‚¢B');
+		if ($name > $qset[0]){ #ï¿½ñ“š‚ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â‚ªï¿½ï¿½ï¿½Å‚Éíœï¿½Ï‚ï¿½
+			&error('ï¿½ñ“š‚ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â‚ªï¿½íœï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B');
 		}
 
 		if ($name eq 'del'){
-			push (@del,$value);		#‘I‘ðŽˆ‚Ìíœ
+			push (@del,$value);		#ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ìíœ
 		}
 
 		if ($name eq 'delque'){
 			if ($value eq 'muko'){
-			&error('Á‹Ž‚µ‚½‚¢Ž¿–â‚Ì‘I‘ðŽˆ‚ð‚·‚×‚Äíœ‚µ‚Ä‚©‚çŽÀs‚µ‚Ä‚­‚¾‚³‚¢B<br><br>
-(Šù‚É‚·‚×‚Ä‚Ì‘I‘ðŽˆ‚ªíœ‚³‚ê‚Ä‚¢‚éê‡A1‰ñ •[”ƒŠƒZƒbƒg‚ðs‚Á‚Ä‚Ý‚Ä‚­‚¾‚³‚¢B)');
+			&error('ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Äíœï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B<br><br>
+(ï¿½ï¿½ï¿½É‚ï¿½ï¿½×‚Ä‚Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½A1ï¿½ï¿½ ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚Ý‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B)');
 			}else{
-			push (@delque,$value);		#Ž¿–â‚ÌÁ‹Ž
+			push (@delque,$value);		#ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½
 			}
 		}
 	}
 
-	if ($in{'mode'} eq 'tohyo'){			#‰ñ“šî•ñ‚Ì•s”õ‚ðƒ`ƒFƒbƒN
+	if ($in{'mode'} eq 'tohyo'){			#ï¿½ñ“šï¿½ï¿½Ì•sï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 		for ($i=1;$i<=$qset[0];$i++){
 			if ($input[$i] != 1){
-				&error("$i ”Ô–Ú‚ÌŽ¿–â‚ª–¢‰ð“š‚Å‚·");
+				&error("$i ï¿½Ô–Ú‚ÌŽï¿½ï¿½â‚ªï¿½ï¿½ï¿½ð“š‚Å‚ï¿½");
 			}
 			if ($addc[$i] == 1 && $in{"add$i"} eq ''){
-				&error("$i ”Ô–Ú‚ÌŽ¿–â‚Ì‘I‘ðŽˆ‚É’Ç‰Á‚µ‚½‚¢“à—e‚ª‘‚©‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+				&error("$i ï¿½Ô–Ú‚ÌŽï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");
 			}
 		}
 		if ($in{'tname'} eq '' && $in{'toko'} ne ''){
-			&error('ƒƒbƒZ[ƒW‚É‚¨–¼‘O‚ª‚ ‚è‚Ü‚¹‚ñ');
+			&error('ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½É‚ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½');
 		}
 	}
-	if ($in{'mode'} eq 'kanri'){			#‰ñ“šî•ñ‚Ì•s”õ‚ðƒ`ƒFƒbƒN
+	if ($in{'mode'} eq 'kanri'){			#ï¿½ñ“šï¿½ï¿½Ì•sï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
 		for ($i=1;$i<=$qset[0];$i++){
 			if ($addc[$i] == 1 && $in{"add$i"} eq ''){
-				&error("$i ”Ô–Ú‚ÌŽ¿–â‚Ì‘I‘ðŽˆ‚É’Ç‰Á‚µ‚½‚¢“à—e‚ª‘‚©‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+				&error("$i ï¿½Ô–Ú‚ÌŽï¿½ï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½ï¿½ï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");
 			}
 		}
 		if ($in{'k_mode'} eq 'bunadd' && $in{'addque'} eq ''){
-			&error("’Ç‰Á‚·‚éŽ¿–â•¶‚É“à—e‚ª‚ ‚è‚Ü‚¹‚ñ");
+			&error("ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½éŽ¿ï¿½â•¶ï¿½É“ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½");
 		}	
 	}
 	$mode = $in{'mode'};
 }
 
 #----------------------------------
-#ŽžŠÔ“Ç‚Ýž‚Ý
+#ï¿½ï¿½ï¿½Ô“Ç‚Ýï¿½ï¿½ï¿½
 #----------------------------------
 sub jikan{
 
-	#XV—š—ð—p
+	#ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½p
 	($sec,$min,$hour,$mday,$mon,$year,) = localtime;
 	$mon++;
 	$mon = sprintf("%.2d",$mon);
@@ -1008,7 +1008,7 @@ sub jikan{
 }	
 
 #----------------------------------
-#ƒwƒbƒ_•\Ž¦
+#ï¿½wï¿½bï¿½_ï¿½\ï¿½ï¿½
 #----------------------------------
 sub head{
 	print "Content-type: text/html\n";
@@ -1023,29 +1023,29 @@ EOM
 }
 
 #----------------------------------
-#ƒtƒbƒ^•\Ž¦
+#ï¿½tï¿½bï¿½^ï¿½\ï¿½ï¿½
 #----------------------------------
 sub foot{
 	print <<"EOM";
 </div>
-<DIV class=foot>ƒEƒFƒuƒAƒ“ƒP[ƒgƒVƒXƒeƒ€<a href=http://www.narishin.com>Web Qnaire 1</a> + <a href=http://www.netmania.jp>Netmania</a> | <a href=$script?mode=kanri>ŠÇ—</a></div>
+<DIV class=foot>ï¿½Eï¿½Fï¿½uï¿½Aï¿½ï¿½ï¿½Pï¿½[ï¿½//ï¿½ï¿½<a href=http://www.narishin.com>Web //1</a> + <a href=http://www.netmania.jp>Netmania</a> | <a href=$script?mode=kanri>ï¿½Ç—ï¿½</a></div>
 </body></html>
 EOM
 	exit;
 }
 
 #----------------------------------
-#  ƒƒbƒNˆ—  
+#  ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½  
 #----------------------------------
 sub lock {
 	local($retry, $mtime);
 
-	# 1•ªˆÈãŒÃ‚¢ƒƒbƒN‚Ííœ‚·‚é
+	# 1ï¿½ï¿½ï¿½Èï¿½Ã‚ï¿½ï¿½ï¿½ï¿½bï¿½Nï¿½Ííœï¿½ï¿½ï¿½ï¿½
 	if (-e $lockfile) {
 		($mtime) = (stat($lockfile))[9];
 		if ($mtime < time - 60) { &unlock; }
 	}
-	# ƒƒbƒNˆ—
+	# ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	$retry=5;
 	while (!mkdir($lockfile, 0755)) {
 		if (--$retry <= 0) { &error('LOCK is BUSY'); }
@@ -1055,7 +1055,7 @@ sub lock {
 }
 
 #----------------------------------
-#  ƒƒbƒN‰ðœ  
+#  ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½  
 #----------------------------------
 sub unlock {
 	rmdir($lockfile);
@@ -1063,10 +1063,10 @@ sub unlock {
 }
 
 #----------------------------------
-#ƒGƒ‰[ˆ—
+#ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½
 #----------------------------------
 sub error{
-	&unlock if ($lockflag); # ƒƒbƒN‰ðœ
+	&unlock if ($lockflag); # ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½
 	&jikan(0);
 
 	print "Content-type: text/html\n";
@@ -1082,7 +1082,7 @@ sub error{
 <div class=error_bottom>[<a href="javascript:history.back()">BACK</a>]</div>
 
 </div>
-<div class=admin><form action=\"$script\" method=\"$method\"><input type=hidden name=mode value=\"kanri\"><input type=password name=pass size=8> <input type=submit value=\"ŠÇ——p\"></form></div>
+<div class=admin><form action=\"$script\" method=\"$method\"><input type=hidden name=mode value=\"kanri\"><input type=password name=pass size=8> <input type=submit value=\"ï¿½Ç—ï¿½ï¿½p\"></form></div>
 
 
 
